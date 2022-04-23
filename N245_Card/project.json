@@ -1,0 +1,1221 @@
+{
+    "name": "N245_Card",
+    "components": [
+        {
+            "name": "/App",
+            "graph": {
+                "connections": [],
+                "roots": [
+                    {
+                        "id": "246f9453-a119-ac78-171e-3806cf596ecc",
+                        "type": "Group",
+                        "x": -111.4681915301291,
+                        "y": 311.4376377651178,
+                        "parameters": {
+                            "backgroundColor": "Dark Gray"
+                        },
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": [
+                            {
+                                "id": "7c75ea13-b143-67b5-f9d3-d1e2b86ab406",
+                                "type": "Image",
+                                "parameters": {
+                                    "src": "i000_003.jpg",
+                                    "sizeMode": "explicit",
+                                    "position": "absolute"
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": []
+                            },
+                            {
+                                "id": "19d6a119-d740-0182-6af6-b711e3ed2ebd",
+                                "type": "Circle",
+                                "parameters": {
+                                    "position": "absolute",
+                                    "styleCss": "background: linear-gradient(#f00,,#f0f);\n/*clip-path:circle(30% at right 70%);*/\n",
+                                    "fillEnabled": true,
+                                    "size": 500,
+                                    "transformY": {
+                                        "value": -200,
+                                        "unit": "px"
+                                    },
+                                    "transformX": {
+                                        "value": -200,
+                                        "unit": "px"
+                                    },
+                                    "fillColor": "Light Gray"
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": []
+                            },
+                            {
+                                "id": "b5344260-6306-868a-122e-db67cb40bbc3",
+                                "type": "Circle",
+                                "parameters": {
+                                    "position": "absolute",
+                                    "alignX": "right",
+                                    "alignY": "bottom",
+                                    "fillEnabled": true,
+                                    "size": 300,
+                                    "fillColor": "Primary Dark",
+                                    "transformX": {
+                                        "value": 100,
+                                        "unit": "px"
+                                    }
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": []
+                            },
+                            {
+                                "id": "b8a6c583-1539-d611-636c-f307fa442bfe",
+                                "type": "Group",
+                                "parameters": {
+                                    "scrollEnabled": true,
+                                    "flexDirection": "row",
+                                    "nativeScroll": false,
+                                    "scrollSnapEnabled": true,
+                                    "alignX": "center",
+                                    "sizeMode": "contentSize",
+                                    "alignY": "center"
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": [
+                                    {
+                                        "id": "e1f1ec5a-e122-d435-4396-759f3a3fe5a2",
+                                        "type": "/Card",
+                                        "parameters": {
+                                            "Title": "Noodl2.3",
+                                            "contents": "New collaboration git\nNew native UI\nData input module",
+                                            "link": "Yakisoba",
+                                            "url": "https://www.noodl.net/post/release-notes-noodl-2-3"
+                                        },
+                                        "ports": [],
+                                        "dynamicports": [],
+                                        "children": []
+                                    },
+                                    {
+                                        "id": "4bc9eeeb-47d9-e53a-b67b-bbb8f95335d9",
+                                        "type": "/Card",
+                                        "parameters": {
+                                            "Title": "Noodl2.4",
+                                            "contents": "Hight level UI\nNew connection flow\nNew  page system",
+                                            "link": "Udon",
+                                            "url": "https://www.noodl.net/post/release-notes-noodl-2-4"
+                                        },
+                                        "ports": [],
+                                        "dynamicports": [],
+                                        "children": []
+                                    },
+                                    {
+                                        "id": "fd677f3c-d487-3480-b16e-6a5728161030",
+                                        "type": "/Card",
+                                        "parameters": {
+                                            "Title": "Noodl2.5",
+                                            "contents": "Deploy to custom domains\nNode graph comments\nNew interactive lesson",
+                                            "link": "Soba",
+                                            "url": "https://www.noodl.net/post/release-notes-noodl-2-5-soba"
+                                        },
+                                        "ports": [],
+                                        "dynamicports": [],
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "metadata": {
+                "canvasSize": {
+                    "width": "453px",
+                    "height": "259px"
+                },
+                "canvasPos": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        },
+        {
+            "name": "/Card",
+            "id": "098d849d-6348-3d31-551e-1a2bc3abc1b0",
+            "graph": {
+                "connections": [
+                    {
+                        "fromId": "ef1321d5-576e-f745-7ed8-83031a6e452a",
+                        "fromProperty": "hoverStart",
+                        "toId": "2a55b17f-1036-19c1-4548-3cf8b9350517",
+                        "toProperty": "to-On"
+                    },
+                    {
+                        "fromId": "ef1321d5-576e-f745-7ed8-83031a6e452a",
+                        "fromProperty": "hoverEnd",
+                        "toId": "2a55b17f-1036-19c1-4548-3cf8b9350517",
+                        "toProperty": "to-Off"
+                    },
+                    {
+                        "fromId": "2a55b17f-1036-19c1-4548-3cf8b9350517",
+                        "fromProperty": "Y",
+                        "toId": "e6e0cdd6-9714-f99f-d0cd-48f06e769ee9",
+                        "toProperty": "transformY"
+                    },
+                    {
+                        "fromId": "ef1321d5-576e-f745-7ed8-83031a6e452a",
+                        "fromProperty": "this",
+                        "toId": "f1dbde59-13a5-5cea-05e4-a2d1dfcadcb7",
+                        "toProperty": "group"
+                    },
+                    {
+                        "fromId": "ef1321d5-576e-f745-7ed8-83031a6e452a",
+                        "fromProperty": "hoverStart",
+                        "toId": "f1dbde59-13a5-5cea-05e4-a2d1dfcadcb7",
+                        "toProperty": "hover"
+                    },
+                    {
+                        "fromId": "ba6a0ced-e5f1-bc60-22bb-6ec366c27ecb",
+                        "fromProperty": "contents",
+                        "toId": "8fe0b744-9d41-fbf9-edb5-43e73379cc54",
+                        "toProperty": "text"
+                    },
+                    {
+                        "fromId": "ba6a0ced-e5f1-bc60-22bb-6ec366c27ecb",
+                        "fromProperty": "Title",
+                        "toId": "b32d4873-8cf8-c9c8-1168-be61cb3613c1",
+                        "toProperty": "text"
+                    },
+                    {
+                        "fromId": "ba6a0ced-e5f1-bc60-22bb-6ec366c27ecb",
+                        "fromProperty": "link",
+                        "toId": "dea2186f-f0e1-71cd-b4e7-99e96fc49741",
+                        "toProperty": "label"
+                    },
+                    {
+                        "fromId": "dea2186f-f0e1-71cd-b4e7-99e96fc49741",
+                        "fromProperty": "onClick",
+                        "toId": "4dfd37f4-020c-69d2-071b-6593b703152e",
+                        "toProperty": "do"
+                    },
+                    {
+                        "fromId": "ba6a0ced-e5f1-bc60-22bb-6ec366c27ecb",
+                        "fromProperty": "url",
+                        "toId": "4dfd37f4-020c-69d2-071b-6593b703152e",
+                        "toProperty": "link"
+                    }
+                ],
+                "roots": [
+                    {
+                        "id": "ef1321d5-576e-f745-7ed8-83031a6e452a",
+                        "type": "Group",
+                        "label": "Card",
+                        "x": 32.32259841747492,
+                        "y": 18.64408785734173,
+                        "parameters": {
+                            "width": {
+                                "value": 200,
+                                "unit": "px"
+                            },
+                            "height": {
+                                "value": 250,
+                                "unit": "px"
+                            },
+                            "sizeMode": "explicit",
+                            "alignY": "center",
+                            "alignX": "center",
+                            "boxShadowEnabled": true,
+                            "boxShadowOffsetX": {
+                                "value": 20,
+                                "unit": "px"
+                            },
+                            "boxShadowOffsetY": {
+                                "value": 20,
+                                "unit": "px"
+                            },
+                            "boxShadowBlurRadius": {
+                                "value": 50,
+                                "unit": "px"
+                            },
+                            "borderRadius": {
+                                "value": 15,
+                                "unit": "px"
+                            },
+                            "backgroundColor": "Card",
+                            "borderStyle": "none",
+                            "borderColor": "#FFFFFF",
+                            "borderWidth": {
+                                "value": 1,
+                                "unit": "px"
+                            },
+                            "borderLeftStyle": "solid",
+                            "borderLeftWidth": {
+                                "value": 1,
+                                "unit": "px"
+                            },
+                            "borderLeftColor": "CardEdge",
+                            "borderTopStyle": "solid",
+                            "borderTopWidth": {
+                                "value": 1,
+                                "unit": "px"
+                            },
+                            "borderTopColor": "CardEdge",
+                            "styleCss": "/* background-color: red; */\nbackdrop-filter:blur(5px);",
+                            "clip": true,
+                            "marginLeft": {
+                                "value": 10,
+                                "unit": "px"
+                            },
+                            "marginRight": {
+                                "value": 10,
+                                "unit": "px"
+                            }
+                        },
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": [
+                            {
+                                "id": "e6e0cdd6-9714-f99f-d0cd-48f06e769ee9",
+                                "type": "Group",
+                                "label": "Container",
+                                "parameters": {
+                                    "clip": false,
+                                    "paddingBottom": {
+                                        "value": 4,
+                                        "unit": "px"
+                                    },
+                                    "paddingTop": {
+                                        "value": 4,
+                                        "unit": "px"
+                                    }
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": [
+                                    {
+                                        "id": "b32d4873-8cf8-c9c8-1168-be61cb3613c1",
+                                        "type": "Text",
+                                        "label": "Title",
+                                        "parameters": {
+                                            "text": "Hello World",
+                                            "fontFamily": "fonts/Roboto/Roboto-Medium.ttf",
+                                            "fontSize": {
+                                                "value": 36,
+                                                "unit": "px"
+                                            },
+                                            "sizeMode": "contentSize",
+                                            "alignY": "center",
+                                            "alignX": "center",
+                                            "color": "#FFFFFF"
+                                        },
+                                        "ports": [],
+                                        "dynamicports": [],
+                                        "children": []
+                                    },
+                                    {
+                                        "id": "8fe0b744-9d41-fbf9-edb5-43e73379cc54",
+                                        "type": "Text",
+                                        "label": "Content",
+                                        "parameters": {
+                                            "text": "Hello World\nxxxxxxxxxxxxxxxxxxx\nxxxxxxxxxxxxxxxxxxxxxx",
+                                            "fontFamily": "fonts/Roboto/Roboto-Medium.ttf",
+                                            "fontSize": {
+                                                "value": 16,
+                                                "unit": "px"
+                                            },
+                                            "sizeMode": "contentSize",
+                                            "alignY": "center",
+                                            "alignX": "center",
+                                            "textStyle": "Label Text",
+                                            "color": "#FFFFFF"
+                                        },
+                                        "ports": [],
+                                        "dynamicports": [],
+                                        "children": []
+                                    },
+                                    {
+                                        "id": "dea2186f-f0e1-71cd-b4e7-99e96fc49741",
+                                        "type": "net.noodl.controls.button",
+                                        "parameters": {
+                                            "alignX": "center"
+                                        },
+                                        "ports": [],
+                                        "dynamicports": [],
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "2a55b17f-1036-19c1-4548-3cf8b9350517",
+                        "type": "States",
+                        "x": -179.48415890110834,
+                        "y": 141.67241892182062,
+                        "parameters": {
+                            "states": "On,Off",
+                            "values": "Y",
+                            "value-On-Y": 0,
+                            "value-Off-Y": 220,
+                            "currentState": "Off"
+                        },
+                        "ports": [],
+                        "dynamicports": [
+                            {
+                                "type": {
+                                    "name": "number",
+                                    "allowConnectionsOnly": true
+                                },
+                                "plug": "output",
+                                "group": "Values",
+                                "name": "Y",
+                                "index": 6
+                            },
+                            {
+                                "type": {
+                                    "name": "enum",
+                                    "enums": [
+                                        {
+                                            "label": "Number",
+                                            "value": "number"
+                                        },
+                                        {
+                                            "label": "String",
+                                            "value": "string"
+                                        },
+                                        {
+                                            "label": "Boolean",
+                                            "value": "boolean"
+                                        },
+                                        {
+                                            "label": "Color",
+                                            "value": "color"
+                                        },
+                                        {
+                                            "label": "Text Style",
+                                            "value": "textStyle"
+                                        }
+                                    ],
+                                    "allowEditOnly": true
+                                },
+                                "default": "number",
+                                "plug": "input",
+                                "group": "Types",
+                                "displayName": "Y",
+                                "name": "type-Y",
+                                "index": 7
+                            },
+                            {
+                                "plug": "input",
+                                "type": "number",
+                                "group": "On Values",
+                                "name": "value-On-Y",
+                                "displayName": "Y",
+                                "editorName": "On|Y",
+                                "index": 8
+                            },
+                            {
+                                "plug": "input",
+                                "type": "curve",
+                                "displayName": "Default",
+                                "default": {
+                                    "curve": [
+                                        0,
+                                        0,
+                                        0.58,
+                                        1
+                                    ],
+                                    "dur": 300,
+                                    "delay": 0
+                                },
+                                "group": "On Transitions",
+                                "name": "transitiondef-On",
+                                "index": 9
+                            },
+                            {
+                                "plug": "input",
+                                "type": {
+                                    "name": "curve"
+                                },
+                                "default": {
+                                    "curve": [
+                                        0,
+                                        0,
+                                        0.58,
+                                        1
+                                    ],
+                                    "dur": 300,
+                                    "delay": 0
+                                },
+                                "group": "On Transitions",
+                                "name": "transition-On-Y",
+                                "displayName": "Y",
+                                "editorName": "Transition On|Y",
+                                "index": 10
+                            },
+                            {
+                                "plug": "input",
+                                "type": {
+                                    "name": "signal",
+                                    "allowConnectionsOnly": true
+                                },
+                                "displayName": "To On",
+                                "name": "to-On",
+                                "group": "Go to state",
+                                "index": 11
+                            },
+                            {
+                                "plug": "output",
+                                "type": "boolean",
+                                "displayName": "At On",
+                                "name": "at-On",
+                                "group": "Current state",
+                                "index": 12
+                            },
+                            {
+                                "plug": "output",
+                                "type": "signal",
+                                "displayName": "Has Reached On",
+                                "name": "reached-On",
+                                "group": "Current state",
+                                "index": 13
+                            },
+                            {
+                                "plug": "input",
+                                "type": "number",
+                                "group": "Off Values",
+                                "name": "value-Off-Y",
+                                "displayName": "Y",
+                                "editorName": "Off|Y",
+                                "index": 14
+                            },
+                            {
+                                "plug": "input",
+                                "type": "curve",
+                                "displayName": "Default",
+                                "default": {
+                                    "curve": [
+                                        0,
+                                        0,
+                                        0.58,
+                                        1
+                                    ],
+                                    "dur": 300,
+                                    "delay": 0
+                                },
+                                "group": "Off Transitions",
+                                "name": "transitiondef-Off",
+                                "index": 15
+                            },
+                            {
+                                "plug": "input",
+                                "type": {
+                                    "name": "curve"
+                                },
+                                "default": {
+                                    "curve": [
+                                        0,
+                                        0,
+                                        0.58,
+                                        1
+                                    ],
+                                    "dur": 300,
+                                    "delay": 0
+                                },
+                                "group": "Off Transitions",
+                                "name": "transition-Off-Y",
+                                "displayName": "Y",
+                                "editorName": "Transition Off|Y",
+                                "index": 16
+                            },
+                            {
+                                "plug": "input",
+                                "type": {
+                                    "name": "signal",
+                                    "allowConnectionsOnly": true
+                                },
+                                "displayName": "To Off",
+                                "name": "to-Off",
+                                "group": "Go to state",
+                                "index": 17
+                            },
+                            {
+                                "plug": "output",
+                                "type": "boolean",
+                                "displayName": "At Off",
+                                "name": "at-Off",
+                                "group": "Current state",
+                                "index": 18
+                            },
+                            {
+                                "plug": "output",
+                                "type": "signal",
+                                "displayName": "Has Reached Off",
+                                "name": "reached-Off",
+                                "group": "Current state",
+                                "index": 19
+                            },
+                            {
+                                "plug": "input",
+                                "type": {
+                                    "name": "enum",
+                                    "enums": [
+                                        "On",
+                                        "Off"
+                                    ]
+                                },
+                                "group": "States",
+                                "displayName": "State",
+                                "name": "currentState",
+                                "default": "On",
+                                "index": 20
+                            }
+                        ],
+                        "children": []
+                    },
+                    {
+                        "id": "f1dbde59-13a5-5cea-05e4-a2d1dfcadcb7",
+                        "type": "Javascript2",
+                        "x": -179,
+                        "y": 35,
+                        "parameters": {
+                            "code": "Node.Inputs = {\r\n    group: 'reference',\r\n}\r\n\r\nNode.Signals = {\r\n    hover() {\r\n        const domElement = Node.Inputs.group.getDOMElement()\r\n        //var elements = document.querySelectorAll('.dom-node-demo .el');\r\n        VanillaTilt.init(domElement, {\r\n\t\t    max: 25,\r\n\t\t    speed: 400,\r\n\t\t    glare: true,\r\n\t\t    \"max-glare\": 1,\r\n    \t});\r\n    },\r\n\r\n}\r\n\r\n\r\n"
+                        },
+                        "ports": [],
+                        "dynamicports": [
+                            {
+                                "name": "group",
+                                "plug": "input",
+                                "type": {
+                                    "name": "reference"
+                                },
+                                "group": "Inputs",
+                                "index": 5
+                            },
+                            {
+                                "name": "hover",
+                                "plug": "input",
+                                "type": {
+                                    "name": "signal"
+                                },
+                                "group": "Inputs",
+                                "index": 6
+                            }
+                        ],
+                        "children": []
+                    },
+                    {
+                        "id": "ba6a0ced-e5f1-bc60-22bb-6ec366c27ecb",
+                        "type": "Component Inputs",
+                        "x": -177.03588443800214,
+                        "y": 284.06241532600905,
+                        "parameters": {},
+                        "ports": [
+                            {
+                                "name": "Title",
+                                "plug": "output",
+                                "type": {
+                                    "name": "*"
+                                },
+                                "index": 1
+                            },
+                            {
+                                "name": "contents",
+                                "plug": "output",
+                                "type": {
+                                    "name": "*"
+                                },
+                                "index": 2
+                            },
+                            {
+                                "name": "link",
+                                "plug": "output",
+                                "type": {
+                                    "name": "*"
+                                },
+                                "index": 3
+                            },
+                            {
+                                "name": "url",
+                                "plug": "output",
+                                "type": {
+                                    "name": "*"
+                                },
+                                "index": 4
+                            }
+                        ],
+                        "dynamicports": [],
+                        "children": []
+                    },
+                    {
+                        "id": "4dfd37f4-020c-69d2-071b-6593b703152e",
+                        "type": "net.noodl.externallink",
+                        "x": 295.70960987909166,
+                        "y": 431.0791266947906,
+                        "parameters": {},
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": []
+                    }
+                ]
+            },
+            "metadata": {
+                "canvasPos": {
+                    "x": 501.39335180055394,
+                    "y": 9.29639889196676
+                }
+            }
+        }
+    ],
+    "settings": {
+        "headCode": "<script type=\"text/javascript\" src=\"vanilla-tilt.js\"></script>"
+    },
+    "rootNodeId": "246f9453-a119-ac78-171e-3806cf596ecc",
+    "version": "3",
+    "metadata": {
+        "dbCollections": [],
+        "styles": {
+            "colors": {
+                "Primary": "#5836F5",
+                "Light Gray": "#FF00004C",
+                "Dark Gray": "#434B53",
+                "Primary Dark": "#3F22B84C",
+                "Dark": "#1F1F1F",
+                "Primary Light": "#C9BFFC",
+                "Card": "transparent",
+                "CardEdge": "#FFFFFF7F"
+            },
+            "text": {
+                "Body Text": {
+                    "fontFamily": "fonts/Roboto/Roboto-Regular.ttf",
+                    "fontSize": {
+                        "value": "18",
+                        "unit": "px"
+                    },
+                    "color": "#000000"
+                },
+                "Button Label": {
+                    "fontFamily": "fonts/Roboto/Roboto-Regular.ttf",
+                    "fontSize": {
+                        "value": "16",
+                        "unit": "px"
+                    },
+                    "color": "#000000"
+                },
+                "Label Text": {
+                    "fontFamily": "fonts/Roboto/Roboto-Regular.ttf",
+                    "fontSize": {
+                        "value": "14",
+                        "unit": "px"
+                    },
+                    "color": "#000000"
+                }
+            }
+        }
+    },
+    "variants": [
+        {
+            "typename": "net.noodl.controls.button",
+            "parameters": {
+                "height": {
+                    "value": 40,
+                    "unit": "px"
+                },
+                "sizeMode": "contentWidth",
+                "backgroundColor": "Primary",
+                "iconIconSource": {
+                    "class": "material-icons",
+                    "code": "home"
+                },
+                "iconSize": {
+                    "value": 22,
+                    "unit": "px"
+                },
+                "iconSpacing": {
+                    "value": 6,
+                    "unit": "px"
+                },
+                "borderRadius": {
+                    "value": 4,
+                    "unit": "px"
+                },
+                "textStyle": "Button Label",
+                "paddingTop": {
+                    "value": 5,
+                    "unit": "px"
+                },
+                "paddingLeft": {
+                    "value": 24,
+                    "unit": "px"
+                },
+                "paddingRight": {
+                    "value": 24,
+                    "unit": "px"
+                },
+                "paddingBottom": {
+                    "value": 4,
+                    "unit": "px"
+                },
+                "color": "#FFFFFF",
+                "fontFamily": "fonts/Roboto/Roboto-Medium.ttf"
+            },
+            "stateParamaters": {
+                "hover": {
+                    "backgroundColor": "Primary Dark"
+                },
+                "pressed": {
+                    "backgroundColor": "Primary Light",
+                    "color": "Primary Dark"
+                },
+                "disabled": {
+                    "backgroundColor": "Light Gray"
+                }
+            },
+            "stateTransitions": {},
+            "defaultStateTransitions": {
+                "neutral": {
+                    "curve": [
+                        0,
+                        0,
+                        0.58,
+                        1
+                    ],
+                    "dur": 300,
+                    "delay": 0
+                },
+                "hover": {
+                    "curve": [
+                        0,
+                        0,
+                        0.58,
+                        1
+                    ],
+                    "dur": 300,
+                    "delay": 0
+                },
+                "pressed": {
+                    "curve": [
+                        0,
+                        0,
+                        0.58,
+                        1
+                    ],
+                    "dur": 300,
+                    "delay": 0
+                }
+            }
+        },
+        {
+            "typename": "net.noodl.controls.radiobutton",
+            "parameters": {
+                "width": {
+                    "value": 24,
+                    "unit": "px"
+                },
+                "height": {
+                    "value": 24,
+                    "unit": "px"
+                },
+                "useLabel": true,
+                "labeltextStyle": "Label Text",
+                "borderWidth": {
+                    "value": 2,
+                    "unit": "px"
+                },
+                "value": "0",
+                "useIcon": false,
+                "fillColor": "transparent",
+                "borderColor": "#1F1F1F7F",
+                "labelfontSize": {
+                    "value": 16,
+                    "unit": "px"
+                }
+            },
+            "stateParamaters": {
+                "checked": {
+                    "fillColor": "Primary",
+                    "borderColor": "Primary",
+                    "borderWidth": {
+                        "value": 2,
+                        "unit": "px"
+                    },
+                    "backgroundColor": "#FFFFFF",
+                    "width": {
+                        "value": 24,
+                        "unit": "px"
+                    },
+                    "height": {
+                        "value": 24,
+                        "unit": "px"
+                    }
+                },
+                "hover": {
+                    "backgroundColor": "transparent",
+                    "borderColor": "Primary",
+                    "width": {
+                        "value": 24,
+                        "unit": "px"
+                    },
+                    "height": {
+                        "value": 24,
+                        "unit": "px"
+                    }
+                }
+            },
+            "stateTransitions": {},
+            "defaultStateTransitions": {
+                "neutral": {
+                    "curve": [
+                        0,
+                        0,
+                        0.58,
+                        1
+                    ],
+                    "dur": 300,
+                    "delay": 0
+                },
+                "hover": {
+                    "curve": [
+                        0,
+                        0,
+                        0.58,
+                        1
+                    ],
+                    "dur": 300,
+                    "delay": 0
+                },
+                "checked": {
+                    "curve": [
+                        0,
+                        0,
+                        0.58,
+                        1
+                    ],
+                    "dur": 300,
+                    "delay": 0
+                }
+            }
+        },
+        {
+            "typename": "Text",
+            "parameters": {
+                "textStyle": "Body Text"
+            },
+            "stateParamaters": {},
+            "stateTransitions": {}
+        },
+        {
+            "typename": "net.noodl.controls.range",
+            "parameters": {
+                "thumbColor": "Primary",
+                "thumbBorderRadius": {
+                    "value": 100,
+                    "unit": "%"
+                },
+                "trackHeight": {
+                    "value": 4,
+                    "unit": "px"
+                },
+                "trackActiveColor": "Primary",
+                "trackColor": "Primary Light",
+                "width": {
+                    "value": 100,
+                    "unit": "%"
+                }
+            },
+            "stateParamaters": {},
+            "stateTransitions": {}
+        },
+        {
+            "typename": "net.noodl.controls.checkbox",
+            "parameters": {
+                "width": {
+                    "value": 24,
+                    "unit": "px"
+                },
+                "height": {
+                    "value": 24,
+                    "unit": "px"
+                },
+                "useIcon": false,
+                "borderWidth": {
+                    "value": 2,
+                    "unit": "px"
+                },
+                "useLabel": true,
+                "labeltextStyle": "Label Text",
+                "borderRadius": {
+                    "value": 2,
+                    "unit": "px"
+                },
+                "borderColor": "#0000007F",
+                "labelfontSize": {
+                    "value": 16,
+                    "unit": "px"
+                },
+                "labelcolor": "Dark"
+            },
+            "stateParamaters": {
+                "checked": {
+                    "useIcon": true,
+                    "iconIconSource": {
+                        "class": "material-icons",
+                        "code": "check"
+                    },
+                    "backgroundColor": "Primary",
+                    "borderColor": "Primary",
+                    "iconSize": {
+                        "value": 16,
+                        "unit": "px"
+                    }
+                },
+                "disabled": {
+                    "opacity": 0.5
+                },
+                "hover": {
+                    "borderColor": "Primary"
+                },
+                "pressed": {}
+            },
+            "stateTransitions": {},
+            "defaultStateTransitions": {
+                "neutral": {
+                    "curve": [
+                        0,
+                        0,
+                        0.58,
+                        1
+                    ],
+                    "dur": 300,
+                    "delay": 0
+                },
+                "hover": {
+                    "curve": [
+                        0,
+                        0,
+                        0.58,
+                        1
+                    ],
+                    "dur": 300,
+                    "delay": 0
+                },
+                "checked": {
+                    "curve": [
+                        0,
+                        0,
+                        0.58,
+                        1
+                    ],
+                    "dur": 300,
+                    "delay": 0
+                }
+            }
+        },
+        {
+            "typename": "net.noodl.controls.textinput",
+            "parameters": {
+                "useLabel": true,
+                "sizeMode": "explicit",
+                "height": {
+                    "value": 40,
+                    "unit": "px"
+                },
+                "textStyle": "Body Text",
+                "borderStyle": "solid",
+                "borderRadius": {
+                    "value": 4,
+                    "unit": "px"
+                },
+                "borderWidth": {
+                    "value": 2,
+                    "unit": "px"
+                },
+                "borderColor": "#1F1F1F7F",
+                "labeltextStyle": "Label Text",
+                "paddingLeft": {
+                    "value": 8,
+                    "unit": "px"
+                },
+                "paddingRight": {
+                    "value": 8,
+                    "unit": "px"
+                },
+                "labelSpacing": {
+                    "value": 4,
+                    "unit": "px"
+                },
+                "placeholder": "Type here",
+                "labelcolor": "#1F1F1F7F",
+                "labeltextTransform": "uppercase",
+                "labelfontSize": {
+                    "value": 12,
+                    "unit": "px"
+                },
+                "labelfontFamily": "fonts/Roboto/Roboto-Medium.ttf"
+            },
+            "stateParamaters": {
+                "hover": {
+                    "labelcolor": "#000000",
+                    "borderColor": "Dark",
+                    "borderStyle": "solid"
+                },
+                "focused": {
+                    "borderColor": "Primary",
+                    "labelcolor": "Primary",
+                    "borderWidth": {
+                        "value": 2,
+                        "unit": "px"
+                    },
+                    "boxShadowEnabled": false,
+                    "boxShadowColor": "Primary",
+                    "borderStyle": "solid"
+                },
+                "disabled": {
+                    "labelcolor": "Light Gray",
+                    "backgroundColor": "Light Gray",
+                    "borderWidth": {
+                        "value": 1,
+                        "unit": "px"
+                    },
+                    "borderColor": "Light Gray"
+                }
+            },
+            "stateTransitions": {},
+            "defaultStateTransitions": {
+                "neutral": {
+                    "curve": [
+                        0,
+                        0,
+                        0.58,
+                        1
+                    ],
+                    "dur": 300,
+                    "delay": 0
+                },
+                "focused": {
+                    "curve": [
+                        0,
+                        0,
+                        0.58,
+                        1
+                    ],
+                    "dur": 300,
+                    "delay": 0
+                }
+            }
+        },
+        {
+            "typename": "net.noodl.controls.options",
+            "parameters": {
+                "sizeMode": "explicit",
+                "height": {
+                    "value": 40,
+                    "unit": "px"
+                },
+                "borderWidth": {
+                    "value": 2,
+                    "unit": "px"
+                },
+                "borderRadius": {
+                    "value": 4,
+                    "unit": "px"
+                },
+                "borderColor": "#1F1F1F7F",
+                "boxShadowColor": "Dark Gray",
+                "useIcon": true,
+                "iconIconSource": {
+                    "class": "material-icons",
+                    "code": "expand_more"
+                },
+                "iconPlacement": "right",
+                "iconSize": {
+                    "value": 24,
+                    "unit": "px"
+                },
+                "paddingRight": {
+                    "value": 8,
+                    "unit": "px"
+                },
+                "textStyle": "Body Text",
+                "paddingLeft": {
+                    "value": 8,
+                    "unit": "px"
+                },
+                "marginTop": {
+                    "value": 24,
+                    "unit": "px"
+                },
+                "width": {
+                    "value": 75,
+                    "unit": "%"
+                },
+                "iconColor": "#1F1F1F7F"
+            },
+            "stateParamaters": {
+                "hover": {
+                    "borderColor": "Dark",
+                    "borderRadius": {
+                        "value": 4,
+                        "unit": "px"
+                    },
+                    "iconColor": "Dark",
+                    "iconSize": {
+                        "value": 24,
+                        "unit": "px"
+                    },
+                    "iconPlacement": "right"
+                },
+                "focused": {
+                    "borderColor": "Primary",
+                    "boxShadowColor": "Primary",
+                    "borderRadius": {
+                        "value": 4,
+                        "unit": "px"
+                    },
+                    "useIcon": true,
+                    "iconColor": "Primary",
+                    "iconIconSource": {
+                        "class": "material-icons",
+                        "code": "keyboard_arrow_up"
+                    },
+                    "iconSize": {
+                        "value": 24,
+                        "unit": "px"
+                    },
+                    "iconPlacement": "right"
+                },
+                "pressed": {
+                    "borderRadius": {
+                        "value": 4,
+                        "unit": "px"
+                    }
+                }
+            },
+            "stateTransitions": {},
+            "defaultStateTransitions": {
+                "neutral": {
+                    "curve": [
+                        0,
+                        0,
+                        0.58,
+                        1
+                    ],
+                    "dur": 300,
+                    "delay": 0
+                },
+                "focused": {
+                    "curve": [
+                        0,
+                        0,
+                        0.58,
+                        1
+                    ],
+                    "dur": 300,
+                    "delay": 0
+                }
+            }
+        }
+    ]
+}
