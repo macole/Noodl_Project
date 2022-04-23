@@ -1,0 +1,2837 @@
+{
+    "name": "N253_ChartJS",
+    "components": [
+        {
+            "name": "/AddBox",
+            "id": "f431128d-bb1f-430d-6c8c-3282836b868b",
+            "graph": {
+                "connections": [
+                    {
+                        "fromId": "3736f859-1f83-564d-6e25-d00fc9266af9",
+                        "fromProperty": "onTextChanged",
+                        "toId": "d6c2c198-308f-2ff4-c1d6-888945dd3fee",
+                        "toProperty": "prop-data1"
+                    },
+                    {
+                        "fromId": "a1eef24b-e01c-22bc-ef9d-a8e643348471",
+                        "fromProperty": "onTextChanged",
+                        "toId": "d6c2c198-308f-2ff4-c1d6-888945dd3fee",
+                        "toProperty": "prop-data2"
+                    },
+                    {
+                        "fromId": "e01c8cd4-cd70-823f-2295-d7fbc127ce95",
+                        "fromProperty": "onTextChanged",
+                        "toId": "d6c2c198-308f-2ff4-c1d6-888945dd3fee",
+                        "toProperty": "prop-data3"
+                    },
+                    {
+                        "fromId": "d5a5ebc5-b635-6d1c-603b-426d2f538428",
+                        "fromProperty": "onTextChanged",
+                        "toId": "d6c2c198-308f-2ff4-c1d6-888945dd3fee",
+                        "toProperty": "prop-data4"
+                    },
+                    {
+                        "fromId": "7b13abf7-d8e8-df34-c599-f36f0f965d43",
+                        "fromProperty": "onTextChanged",
+                        "toId": "d6c2c198-308f-2ff4-c1d6-888945dd3fee",
+                        "toProperty": "prop-data5"
+                    },
+                    {
+                        "fromId": "42250056-1b8f-ecb6-3f7f-a7ba278cdc82",
+                        "fromProperty": "onTextChanged",
+                        "toId": "d6c2c198-308f-2ff4-c1d6-888945dd3fee",
+                        "toProperty": "prop-name"
+                    },
+                    {
+                        "fromId": "7231e732-ac5a-db51-2099-e350331b9450",
+                        "fromProperty": "onClick",
+                        "toId": "d6c2c198-308f-2ff4-c1d6-888945dd3fee",
+                        "toProperty": "new"
+                    },
+                    {
+                        "fromId": "3736f859-1f83-564d-6e25-d00fc9266af9",
+                        "fromProperty": "onTextChanged",
+                        "toId": "0f82a919-9c80-962f-f79b-125d5e027a01",
+                        "toProperty": "d1"
+                    },
+                    {
+                        "fromId": "42250056-1b8f-ecb6-3f7f-a7ba278cdc82",
+                        "fromProperty": "onTextChanged",
+                        "toId": "0f82a919-9c80-962f-f79b-125d5e027a01",
+                        "toProperty": "name"
+                    },
+                    {
+                        "fromId": "a1eef24b-e01c-22bc-ef9d-a8e643348471",
+                        "fromProperty": "onTextChanged",
+                        "toId": "0f82a919-9c80-962f-f79b-125d5e027a01",
+                        "toProperty": "d2"
+                    },
+                    {
+                        "fromId": "e01c8cd4-cd70-823f-2295-d7fbc127ce95",
+                        "fromProperty": "onTextChanged",
+                        "toId": "0f82a919-9c80-962f-f79b-125d5e027a01",
+                        "toProperty": "d3"
+                    },
+                    {
+                        "fromId": "d5a5ebc5-b635-6d1c-603b-426d2f538428",
+                        "fromProperty": "onTextChanged",
+                        "toId": "0f82a919-9c80-962f-f79b-125d5e027a01",
+                        "toProperty": "d4"
+                    },
+                    {
+                        "fromId": "7b13abf7-d8e8-df34-c599-f36f0f965d43",
+                        "fromProperty": "onTextChanged",
+                        "toId": "0f82a919-9c80-962f-f79b-125d5e027a01",
+                        "toProperty": "d5"
+                    },
+                    {
+                        "fromId": "0f82a919-9c80-962f-f79b-125d5e027a01",
+                        "fromProperty": "result",
+                        "toId": "7231e732-ac5a-db51-2099-e350331b9450",
+                        "toProperty": "enabled"
+                    },
+                    {
+                        "fromId": "d6c2c198-308f-2ff4-c1d6-888945dd3fee",
+                        "fromProperty": "id",
+                        "toId": "86ccc127-f97e-05c8-7d50-1aa049cae8c8",
+                        "toProperty": "modifyId"
+                    },
+                    {
+                        "fromId": "d6c2c198-308f-2ff4-c1d6-888945dd3fee",
+                        "fromProperty": "created",
+                        "toId": "86ccc127-f97e-05c8-7d50-1aa049cae8c8",
+                        "toProperty": "add"
+                    },
+                    {
+                        "fromId": "86ccc127-f97e-05c8-7d50-1aa049cae8c8",
+                        "fromProperty": "modified",
+                        "toId": "985382af-3999-db80-5d6c-3eecee486444",
+                        "toProperty": "click"
+                    },
+                    {
+                        "fromId": "1d307028-e9de-79df-4ded-c59247f730d3",
+                        "fromProperty": "items",
+                        "toId": "abd61e13-a9c3-9e2e-c57f-2366cd461439",
+                        "toProperty": "items"
+                    },
+                    {
+                        "fromId": "abd61e13-a9c3-9e2e-c57f-2366cd461439",
+                        "fromProperty": "value",
+                        "toId": "0f82a919-9c80-962f-f79b-125d5e027a01",
+                        "toProperty": "color"
+                    },
+                    {
+                        "fromId": "abd61e13-a9c3-9e2e-c57f-2366cd461439",
+                        "fromProperty": "value",
+                        "toId": "d6c2c198-308f-2ff4-c1d6-888945dd3fee",
+                        "toProperty": "prop-color"
+                    }
+                ],
+                "roots": [
+                    {
+                        "id": "73332519-b6d9-8fc5-5cc6-ee7b5e20dd6a",
+                        "type": "Group",
+                        "x": -166,
+                        "y": -58,
+                        "parameters": {
+                            "flexDirection": "column",
+                            "marginTop": {
+                                "value": 2,
+                                "unit": "px"
+                            },
+                            "marginLeft": {
+                                "value": 5,
+                                "unit": "px"
+                            },
+                            "marginRight": {
+                                "value": 5,
+                                "unit": "px"
+                            },
+                            "height": {
+                                "value": 120,
+                                "unit": "px"
+                            }
+                        },
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": [
+                            {
+                                "id": "014ee749-188d-2e92-e6d7-a304cea59942",
+                                "type": "Group",
+                                "parameters": {
+                                    "flexDirection": "row"
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": [
+                                    {
+                                        "id": "3736f859-1f83-564d-6e25-d00fc9266af9",
+                                        "type": "net.noodl.controls.textinput",
+                                        "parameters": {
+                                            "position": "relative",
+                                            "width": {
+                                                "value": 20,
+                                                "unit": "%"
+                                            },
+                                            "type": "number",
+                                            "startValue": "50",
+                                            "label": "Data1"
+                                        },
+                                        "ports": [],
+                                        "dynamicports": [],
+                                        "children": []
+                                    },
+                                    {
+                                        "id": "a1eef24b-e01c-22bc-ef9d-a8e643348471",
+                                        "type": "net.noodl.controls.textinput",
+                                        "parameters": {
+                                            "width": {
+                                                "value": 20,
+                                                "unit": "%"
+                                            },
+                                            "type": "number",
+                                            "startValue": "50",
+                                            "label": "Data2"
+                                        },
+                                        "ports": [],
+                                        "dynamicports": [],
+                                        "children": []
+                                    },
+                                    {
+                                        "id": "e01c8cd4-cd70-823f-2295-d7fbc127ce95",
+                                        "type": "net.noodl.controls.textinput",
+                                        "parameters": {
+                                            "width": {
+                                                "value": 20,
+                                                "unit": "%"
+                                            },
+                                            "type": "number",
+                                            "startValue": "50",
+                                            "label": "Data3"
+                                        },
+                                        "ports": [],
+                                        "dynamicports": [],
+                                        "children": []
+                                    },
+                                    {
+                                        "id": "d5a5ebc5-b635-6d1c-603b-426d2f538428",
+                                        "type": "net.noodl.controls.textinput",
+                                        "parameters": {
+                                            "width": {
+                                                "value": 20,
+                                                "unit": "%"
+                                            },
+                                            "type": "number",
+                                            "startValue": "50",
+                                            "label": "Data4"
+                                        },
+                                        "ports": [],
+                                        "dynamicports": [],
+                                        "children": []
+                                    },
+                                    {
+                                        "id": "7b13abf7-d8e8-df34-c599-f36f0f965d43",
+                                        "type": "net.noodl.controls.textinput",
+                                        "parameters": {
+                                            "width": {
+                                                "value": 20,
+                                                "unit": "%"
+                                            },
+                                            "type": "number",
+                                            "startValue": "50",
+                                            "label": "Data5"
+                                        },
+                                        "ports": [],
+                                        "dynamicports": [],
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "00ce15b1-aa55-5f24-7347-ab2c6cadde23",
+                                "type": "Group",
+                                "parameters": {
+                                    "flexDirection": "row"
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": [
+                                    {
+                                        "id": "42250056-1b8f-ecb6-3f7f-a7ba278cdc82",
+                                        "type": "net.noodl.controls.textinput",
+                                        "parameters": {
+                                            "width": {
+                                                "value": 50,
+                                                "unit": "%"
+                                            },
+                                            "label": "Name",
+                                            "marginRight": {
+                                                "value": 5,
+                                                "unit": "px"
+                                            }
+                                        },
+                                        "ports": [],
+                                        "dynamicports": [],
+                                        "children": []
+                                    },
+                                    {
+                                        "id": "abd61e13-a9c3-9e2e-c57f-2366cd461439",
+                                        "type": "net.noodl.controls.options",
+                                        "label": "Dropdown",
+                                        "parameters": {
+                                            "marginTop": {
+                                                "value": 18,
+                                                "unit": "px"
+                                            },
+                                            "marginLeft": {
+                                                "value": 2,
+                                                "unit": "px"
+                                            }
+                                        },
+                                        "ports": [],
+                                        "dynamicports": [],
+                                        "children": []
+                                    },
+                                    {
+                                        "id": "7231e732-ac5a-db51-2099-e350331b9450",
+                                        "type": "net.noodl.controls.button",
+                                        "parameters": {
+                                            "label": "Add",
+                                            "alignY": "bottom",
+                                            "marginBottom": {
+                                                "value": 2,
+                                                "unit": "px"
+                                            },
+                                            "marginLeft": {
+                                                "value": 2,
+                                                "unit": "px"
+                                            },
+                                            "marginRight": {
+                                                "value": 2,
+                                                "unit": "px"
+                                            },
+                                            "boxShadowEnabled": false,
+                                            "boxShadowOffsetX": {
+                                                "value": 2,
+                                                "unit": "px"
+                                            },
+                                            "boxShadowOffsetY": {
+                                                "value": 2,
+                                                "unit": "px"
+                                            },
+                                            "boxShadowColor": "#00000087",
+                                            "boxShadowBlurRadius": {
+                                                "value": 2,
+                                                "unit": "px"
+                                            },
+                                            "boxShadowInset": false
+                                        },
+                                        "ports": [],
+                                        "dynamicports": [],
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "d6c2c198-308f-2ff4-c1d6-888945dd3fee",
+                        "type": "NewModel",
+                        "x": 402.44149656799937,
+                        "y": 219.83775514800107,
+                        "parameters": {
+                            "properties": "data1,data2,data3,data4,data5,name,color",
+                            "type-name": "string",
+                            "type-data5": "number",
+                            "type-data4": "number",
+                            "type-data3": "number",
+                            "type-data2": "number",
+                            "type-data1": "number"
+                        },
+                        "ports": [],
+                        "dynamicports": [
+                            {
+                                "type": {
+                                    "name": "number"
+                                },
+                                "plug": "input",
+                                "group": "Property Values",
+                                "displayName": "data1",
+                                "name": "prop-data1",
+                                "index": 4
+                            },
+                            {
+                                "type": {
+                                    "name": "enum",
+                                    "enums": [
+                                        {
+                                            "label": "String",
+                                            "value": "string"
+                                        },
+                                        {
+                                            "label": "Boolean",
+                                            "value": "boolean"
+                                        },
+                                        {
+                                            "label": "Number",
+                                            "value": "number"
+                                        },
+                                        {
+                                            "label": "Date",
+                                            "value": "date"
+                                        },
+                                        {
+                                            "label": "Array",
+                                            "value": "array"
+                                        },
+                                        {
+                                            "label": "Object",
+                                            "value": "object"
+                                        },
+                                        {
+                                            "label": "Any",
+                                            "value": "*"
+                                        }
+                                    ],
+                                    "allowEditOnly": true
+                                },
+                                "default": "*",
+                                "plug": "input",
+                                "group": "Property Types",
+                                "displayName": "data1",
+                                "name": "type-data1",
+                                "index": 5
+                            },
+                            {
+                                "type": {
+                                    "name": "number"
+                                },
+                                "plug": "input",
+                                "group": "Property Values",
+                                "displayName": "data2",
+                                "name": "prop-data2",
+                                "index": 6
+                            },
+                            {
+                                "type": {
+                                    "name": "enum",
+                                    "enums": [
+                                        {
+                                            "label": "String",
+                                            "value": "string"
+                                        },
+                                        {
+                                            "label": "Boolean",
+                                            "value": "boolean"
+                                        },
+                                        {
+                                            "label": "Number",
+                                            "value": "number"
+                                        },
+                                        {
+                                            "label": "Date",
+                                            "value": "date"
+                                        },
+                                        {
+                                            "label": "Array",
+                                            "value": "array"
+                                        },
+                                        {
+                                            "label": "Object",
+                                            "value": "object"
+                                        },
+                                        {
+                                            "label": "Any",
+                                            "value": "*"
+                                        }
+                                    ],
+                                    "allowEditOnly": true
+                                },
+                                "default": "*",
+                                "plug": "input",
+                                "group": "Property Types",
+                                "displayName": "data2",
+                                "name": "type-data2",
+                                "index": 7
+                            },
+                            {
+                                "type": {
+                                    "name": "number"
+                                },
+                                "plug": "input",
+                                "group": "Property Values",
+                                "displayName": "data3",
+                                "name": "prop-data3",
+                                "index": 8
+                            },
+                            {
+                                "type": {
+                                    "name": "enum",
+                                    "enums": [
+                                        {
+                                            "label": "String",
+                                            "value": "string"
+                                        },
+                                        {
+                                            "label": "Boolean",
+                                            "value": "boolean"
+                                        },
+                                        {
+                                            "label": "Number",
+                                            "value": "number"
+                                        },
+                                        {
+                                            "label": "Date",
+                                            "value": "date"
+                                        },
+                                        {
+                                            "label": "Array",
+                                            "value": "array"
+                                        },
+                                        {
+                                            "label": "Object",
+                                            "value": "object"
+                                        },
+                                        {
+                                            "label": "Any",
+                                            "value": "*"
+                                        }
+                                    ],
+                                    "allowEditOnly": true
+                                },
+                                "default": "*",
+                                "plug": "input",
+                                "group": "Property Types",
+                                "displayName": "data3",
+                                "name": "type-data3",
+                                "index": 9
+                            },
+                            {
+                                "type": {
+                                    "name": "number"
+                                },
+                                "plug": "input",
+                                "group": "Property Values",
+                                "displayName": "data4",
+                                "name": "prop-data4",
+                                "index": 10
+                            },
+                            {
+                                "type": {
+                                    "name": "enum",
+                                    "enums": [
+                                        {
+                                            "label": "String",
+                                            "value": "string"
+                                        },
+                                        {
+                                            "label": "Boolean",
+                                            "value": "boolean"
+                                        },
+                                        {
+                                            "label": "Number",
+                                            "value": "number"
+                                        },
+                                        {
+                                            "label": "Date",
+                                            "value": "date"
+                                        },
+                                        {
+                                            "label": "Array",
+                                            "value": "array"
+                                        },
+                                        {
+                                            "label": "Object",
+                                            "value": "object"
+                                        },
+                                        {
+                                            "label": "Any",
+                                            "value": "*"
+                                        }
+                                    ],
+                                    "allowEditOnly": true
+                                },
+                                "default": "*",
+                                "plug": "input",
+                                "group": "Property Types",
+                                "displayName": "data4",
+                                "name": "type-data4",
+                                "index": 11
+                            },
+                            {
+                                "type": {
+                                    "name": "number"
+                                },
+                                "plug": "input",
+                                "group": "Property Values",
+                                "displayName": "data5",
+                                "name": "prop-data5",
+                                "index": 12
+                            },
+                            {
+                                "type": {
+                                    "name": "enum",
+                                    "enums": [
+                                        {
+                                            "label": "String",
+                                            "value": "string"
+                                        },
+                                        {
+                                            "label": "Boolean",
+                                            "value": "boolean"
+                                        },
+                                        {
+                                            "label": "Number",
+                                            "value": "number"
+                                        },
+                                        {
+                                            "label": "Date",
+                                            "value": "date"
+                                        },
+                                        {
+                                            "label": "Array",
+                                            "value": "array"
+                                        },
+                                        {
+                                            "label": "Object",
+                                            "value": "object"
+                                        },
+                                        {
+                                            "label": "Any",
+                                            "value": "*"
+                                        }
+                                    ],
+                                    "allowEditOnly": true
+                                },
+                                "default": "*",
+                                "plug": "input",
+                                "group": "Property Types",
+                                "displayName": "data5",
+                                "name": "type-data5",
+                                "index": 13
+                            },
+                            {
+                                "type": {
+                                    "name": "string"
+                                },
+                                "plug": "input",
+                                "group": "Property Values",
+                                "displayName": "name",
+                                "name": "prop-name",
+                                "index": 14
+                            },
+                            {
+                                "type": {
+                                    "name": "enum",
+                                    "enums": [
+                                        {
+                                            "label": "String",
+                                            "value": "string"
+                                        },
+                                        {
+                                            "label": "Boolean",
+                                            "value": "boolean"
+                                        },
+                                        {
+                                            "label": "Number",
+                                            "value": "number"
+                                        },
+                                        {
+                                            "label": "Date",
+                                            "value": "date"
+                                        },
+                                        {
+                                            "label": "Array",
+                                            "value": "array"
+                                        },
+                                        {
+                                            "label": "Object",
+                                            "value": "object"
+                                        },
+                                        {
+                                            "label": "Any",
+                                            "value": "*"
+                                        }
+                                    ],
+                                    "allowEditOnly": true
+                                },
+                                "default": "*",
+                                "plug": "input",
+                                "group": "Property Types",
+                                "displayName": "name",
+                                "name": "type-name",
+                                "index": 15
+                            },
+                            {
+                                "type": {
+                                    "name": "*"
+                                },
+                                "plug": "input",
+                                "group": "Property Values",
+                                "displayName": "color",
+                                "name": "prop-color",
+                                "index": 16
+                            },
+                            {
+                                "type": {
+                                    "name": "enum",
+                                    "enums": [
+                                        {
+                                            "label": "String",
+                                            "value": "string"
+                                        },
+                                        {
+                                            "label": "Boolean",
+                                            "value": "boolean"
+                                        },
+                                        {
+                                            "label": "Number",
+                                            "value": "number"
+                                        },
+                                        {
+                                            "label": "Date",
+                                            "value": "date"
+                                        },
+                                        {
+                                            "label": "Array",
+                                            "value": "array"
+                                        },
+                                        {
+                                            "label": "Object",
+                                            "value": "object"
+                                        },
+                                        {
+                                            "label": "Any",
+                                            "value": "*"
+                                        }
+                                    ],
+                                    "allowEditOnly": true
+                                },
+                                "default": "*",
+                                "plug": "input",
+                                "group": "Property Types",
+                                "displayName": "color",
+                                "name": "type-color",
+                                "index": 17
+                            }
+                        ],
+                        "children": []
+                    },
+                    {
+                        "id": "0f82a919-9c80-962f-f79b-125d5e027a01",
+                        "type": "Expression",
+                        "x": -467.8377551480011,
+                        "y": 213,
+                        "parameters": {
+                            "expression": "!(name==\"\" || d1==\"\"|| d2==\"\"|| d3==\"\"|| d4==\"\"|| d5==\"\"||color==\"\")"
+                        },
+                        "ports": [],
+                        "dynamicports": [
+                            {
+                                "name": "name",
+                                "type": {
+                                    "name": "*",
+                                    "editAsType": "string"
+                                },
+                                "plug": "input",
+                                "index": 2
+                            },
+                            {
+                                "name": "d1",
+                                "type": {
+                                    "name": "*",
+                                    "editAsType": "string"
+                                },
+                                "plug": "input",
+                                "index": 3
+                            },
+                            {
+                                "name": "d2",
+                                "type": {
+                                    "name": "*",
+                                    "editAsType": "string"
+                                },
+                                "plug": "input",
+                                "index": 4
+                            },
+                            {
+                                "name": "d3",
+                                "type": {
+                                    "name": "*",
+                                    "editAsType": "string"
+                                },
+                                "plug": "input",
+                                "index": 5
+                            },
+                            {
+                                "name": "d4",
+                                "type": {
+                                    "name": "*",
+                                    "editAsType": "string"
+                                },
+                                "plug": "input",
+                                "index": 6
+                            },
+                            {
+                                "name": "d5",
+                                "type": {
+                                    "name": "*",
+                                    "editAsType": "string"
+                                },
+                                "plug": "input",
+                                "index": 7
+                            },
+                            {
+                                "name": "color",
+                                "type": {
+                                    "name": "*",
+                                    "editAsType": "string"
+                                },
+                                "plug": "input",
+                                "index": 8
+                            }
+                        ],
+                        "children": []
+                    },
+                    {
+                        "id": "86ccc127-f97e-05c8-7d50-1aa049cae8c8",
+                        "type": "CollectionInsert",
+                        "x": 636.360374142,
+                        "y": 176,
+                        "parameters": {
+                            "collectionId": "DataArray"
+                        },
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": []
+                    },
+                    {
+                        "id": "985382af-3999-db80-5d6c-3eecee486444",
+                        "type": "Component Outputs",
+                        "x": 844.3103718899429,
+                        "y": 205.31100620940407,
+                        "parameters": {},
+                        "ports": [
+                            {
+                                "name": "click",
+                                "plug": "input",
+                                "type": {
+                                    "name": "*"
+                                },
+                                "index": 1
+                            }
+                        ],
+                        "dynamicports": [],
+                        "children": []
+                    },
+                    {
+                        "id": "1d307028-e9de-79df-4ded-c59247f730d3",
+                        "type": "Static Data",
+                        "x": -429.83436142747485,
+                        "y": 567.4371383430768,
+                        "parameters": {
+                            "csv": "Label,Value\nred,red\norange,orange\nyellow,yellow\ngreen,green\nblue,blue\npurple,purple\ngrey,grey"
+                        },
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": []
+                    }
+                ]
+            },
+            "metadata": {
+                "canvasPos": {
+                    "x": 1597.2480775838203,
+                    "y": 159.5567867036011
+                }
+            }
+        },
+        {
+            "name": "/items",
+            "id": "5356f327-f6f0-ab2a-56da-0ea6f27bc938",
+            "graph": {
+                "connections": [
+                    {
+                        "fromId": "be55815c-aa53-3ea0-7adf-1849fea6eb75",
+                        "fromProperty": "onClick",
+                        "toId": "6bfa1ae8-0ed5-25b3-0c26-7da132c11b84",
+                        "toProperty": "navigate"
+                    },
+                    {
+                        "fromId": "4bf5aabd-6887-446b-37a4-a8fe6bfc6585",
+                        "fromProperty": "text",
+                        "toId": "be55815c-aa53-3ea0-7adf-1849fea6eb75",
+                        "toProperty": "label"
+                    }
+                ],
+                "roots": [
+                    {
+                        "id": "a82b1769-5c15-086a-3f28-9734f5153e4d",
+                        "type": "Group",
+                        "x": 0,
+                        "y": 0,
+                        "parameters": {},
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": [
+                            {
+                                "id": "be55815c-aa53-3ea0-7adf-1849fea6eb75",
+                                "type": "net.noodl.controls.button",
+                                "parameters": {},
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "id": "6bfa1ae8-0ed5-25b3-0c26-7da132c11b84",
+                        "type": "RouterNavigate",
+                        "x": 224,
+                        "y": 41,
+                        "parameters": {
+                            "router": "Main",
+                            "target": "/page01"
+                        },
+                        "ports": [],
+                        "dynamicports": [
+                            {
+                                "plug": "input",
+                                "type": {
+                                    "name": "component",
+                                    "title": "Choose page component",
+                                    "components": [
+                                        "/page01",
+                                        "/page05",
+                                        "/page03",
+                                        "/page04",
+                                        "/page02"
+                                    ],
+                                    "allowEditOnly": true
+                                },
+                                "group": "General",
+                                "displayName": "Target Page",
+                                "name": "target",
+                                "index": 2
+                            }
+                        ],
+                        "children": []
+                    },
+                    {
+                        "id": "4bf5aabd-6887-446b-37a4-a8fe6bfc6585",
+                        "type": "Component Inputs",
+                        "x": -224,
+                        "y": 43,
+                        "parameters": {},
+                        "ports": [
+                            {
+                                "name": "text",
+                                "plug": "output",
+                                "type": {
+                                    "name": "*"
+                                },
+                                "index": 1
+                            },
+                            {
+                                "name": "page",
+                                "plug": "output",
+                                "type": {
+                                    "name": "*"
+                                },
+                                "index": 2
+                            }
+                        ],
+                        "dynamicports": [],
+                        "children": []
+                    }
+                ]
+            },
+            "metadata": {
+                "canvasPos": {
+                    "x": 1605.078542977355,
+                    "y": 550.8785078371707
+                },
+                "canvasSize": {
+                    "width": "118px",
+                    "height": "61px"
+                }
+            }
+        },
+        {
+            "name": "/Main",
+            "id": "5afd4c22-5526-c506-9839-33bccde9fab5",
+            "graph": {
+                "connections": [],
+                "roots": [
+                    {
+                        "id": "e0d2e8ee-71c1-f8a8-779f-7c7e5d85c005",
+                        "type": "Group",
+                        "x": 0,
+                        "y": 0,
+                        "parameters": {},
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": [
+                            {
+                                "id": "059164c8-005b-e31c-de00-2c4e4cd23ecb",
+                                "type": "/menu",
+                                "parameters": {},
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": []
+                            },
+                            {
+                                "id": "0b75d475-6ac2-131c-2861-0a43f4ba376c",
+                                "type": "Group",
+                                "parameters": {},
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": [
+                                    {
+                                        "id": "5196b7ee-69ec-3c7e-d70b-238454b385dc",
+                                        "type": "Router",
+                                        "parameters": {
+                                            "name": "Main",
+                                            "pages": {
+                                                "routes": [
+                                                    "/page01",
+                                                    "/page05",
+                                                    "/page03",
+                                                    "/page04",
+                                                    "/page02"
+                                                ],
+                                                "startPage": "/page01"
+                                            }
+                                        },
+                                        "ports": [],
+                                        "dynamicports": [],
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "metadata": {
+                "canvasPos": {
+                    "x": 2165.338249399563,
+                    "y": 159.5567867036011
+                }
+            }
+        },
+        {
+            "name": "/menu",
+            "id": "9a433ccc-6550-e767-787a-069050afa1bd",
+            "graph": {
+                "connections": [
+                    {
+                        "fromId": "d08b7b2b-fae4-722e-4be7-cfd5a065a82e",
+                        "fromProperty": "onClick",
+                        "toId": "4929629f-c6e3-532d-e64c-03477d4fbcbe",
+                        "toProperty": "navigate"
+                    },
+                    {
+                        "fromId": "19dce494-ae93-92bf-a9af-796117bcd7fc",
+                        "fromProperty": "onClick",
+                        "toId": "fc192c4b-52d0-3000-f3d9-033d5a12908a",
+                        "toProperty": "navigate"
+                    },
+                    {
+                        "fromId": "efc6db8f-5179-5f5f-df6d-4771f7386c27",
+                        "fromProperty": "onClick",
+                        "toId": "9473d694-5f93-b097-0f81-c3f1ea2486e3",
+                        "toProperty": "navigate"
+                    },
+                    {
+                        "fromId": "73b3bd7c-9e63-dcc0-cec9-ceecd11084b3",
+                        "fromProperty": "onClick",
+                        "toId": "a0d3ff01-ebef-355f-afda-0dff921112d2",
+                        "toProperty": "navigate"
+                    },
+                    {
+                        "fromId": "c46450ff-780a-339b-7195-899b8325686d",
+                        "fromProperty": "onClick",
+                        "toId": "032968d9-d72f-d364-d6e1-3400166067fe",
+                        "toProperty": "navigate"
+                    }
+                ],
+                "roots": [
+                    {
+                        "id": "f01c5601-9fee-0139-dd97-609cbf9b200f",
+                        "type": "Group",
+                        "x": 1,
+                        "y": 0,
+                        "parameters": {
+                            "flexDirection": "row",
+                            "sizeMode": "contentHeight",
+                            "flexWrap": "nowrap",
+                            "justifyContent": "space-around",
+                            "paddingBottom": {
+                                "value": 5,
+                                "unit": "px"
+                            },
+                            "paddingRight": {
+                                "value": 5,
+                                "unit": "px"
+                            },
+                            "paddingLeft": {
+                                "value": 5,
+                                "unit": "px"
+                            },
+                            "paddingTop": {
+                                "value": 5,
+                                "unit": "px"
+                            },
+                            "backgroundColor": "Light Gray",
+                            "scrollEnabled": true,
+                            "nativeScroll": false,
+                            "scrollSnapEnabled": true,
+                            "scrollSnapToEveryItem": true,
+                            "scrollBounceEnabled": true
+                        },
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": [
+                            {
+                                "id": "d08b7b2b-fae4-722e-4be7-cfd5a065a82e",
+                                "type": "net.noodl.controls.button",
+                                "parameters": {
+                                    "label": "Line",
+                                    "sizeMode": "explicit",
+                                    "marginLeft": {
+                                        "value": 2,
+                                        "unit": "px"
+                                    },
+                                    "marginRight": {
+                                        "value": 2,
+                                        "unit": "px"
+                                    }
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": []
+                            },
+                            {
+                                "id": "c46450ff-780a-339b-7195-899b8325686d",
+                                "type": "net.noodl.controls.button",
+                                "parameters": {
+                                    "mounted": true,
+                                    "label": "Time",
+                                    "sizeMode": "explicit",
+                                    "marginLeft": {
+                                        "value": 2,
+                                        "unit": "px"
+                                    },
+                                    "marginRight": {
+                                        "value": 2,
+                                        "unit": "px"
+                                    }
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": []
+                            },
+                            {
+                                "id": "efc6db8f-5179-5f5f-df6d-4771f7386c27",
+                                "type": "net.noodl.controls.button",
+                                "parameters": {
+                                    "label": "bar",
+                                    "sizeMode": "explicit",
+                                    "marginLeft": {
+                                        "value": 2,
+                                        "unit": "px"
+                                    },
+                                    "marginRight": {
+                                        "value": 2,
+                                        "unit": "px"
+                                    }
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": []
+                            },
+                            {
+                                "id": "73b3bd7c-9e63-dcc0-cec9-ceecd11084b3",
+                                "type": "net.noodl.controls.button",
+                                "parameters": {
+                                    "label": "radar",
+                                    "sizeMode": "explicit",
+                                    "marginRight": {
+                                        "value": 2,
+                                        "unit": "px"
+                                    },
+                                    "marginLeft": {
+                                        "value": 2,
+                                        "unit": "px"
+                                    }
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": []
+                            },
+                            {
+                                "id": "19dce494-ae93-92bf-a9af-796117bcd7fc",
+                                "type": "net.noodl.controls.button",
+                                "parameters": {
+                                    "label": "doughnut",
+                                    "sizeMode": "explicit",
+                                    "marginLeft": {
+                                        "value": 2,
+                                        "unit": "px"
+                                    },
+                                    "marginRight": {
+                                        "value": 2,
+                                        "unit": "px"
+                                    }
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "id": "4929629f-c6e3-532d-e64c-03477d4fbcbe",
+                        "type": "RouterNavigate",
+                        "x": 234,
+                        "y": 48,
+                        "parameters": {
+                            "router": "Main",
+                            "target": "/page01"
+                        },
+                        "ports": [],
+                        "dynamicports": [
+                            {
+                                "plug": "input",
+                                "type": {
+                                    "name": "component",
+                                    "title": "Choose page component",
+                                    "components": [
+                                        "/page01",
+                                        "/page05",
+                                        "/page03",
+                                        "/page04",
+                                        "/page02"
+                                    ],
+                                    "allowEditOnly": true
+                                },
+                                "group": "General",
+                                "displayName": "Target Page",
+                                "name": "target",
+                                "index": 2
+                            }
+                        ],
+                        "children": []
+                    },
+                    {
+                        "id": "fc192c4b-52d0-3000-f3d9-033d5a12908a",
+                        "type": "RouterNavigate",
+                        "x": 229,
+                        "y": 373,
+                        "parameters": {
+                            "router": "Main",
+                            "target": "/page05"
+                        },
+                        "ports": [],
+                        "dynamicports": [
+                            {
+                                "plug": "input",
+                                "type": {
+                                    "name": "component",
+                                    "title": "Choose page component",
+                                    "components": [
+                                        "/page01",
+                                        "/page05",
+                                        "/page03",
+                                        "/page04",
+                                        "/page02"
+                                    ],
+                                    "allowEditOnly": true
+                                },
+                                "group": "General",
+                                "displayName": "Target Page",
+                                "name": "target",
+                                "index": 2
+                            }
+                        ],
+                        "children": []
+                    },
+                    {
+                        "id": "9473d694-5f93-b097-0f81-c3f1ea2486e3",
+                        "type": "RouterNavigate",
+                        "x": 233,
+                        "y": 212,
+                        "parameters": {
+                            "router": "Main",
+                            "target": "/page03"
+                        },
+                        "ports": [],
+                        "dynamicports": [
+                            {
+                                "plug": "input",
+                                "type": {
+                                    "name": "component",
+                                    "title": "Choose page component",
+                                    "components": [
+                                        "/page01",
+                                        "/page05",
+                                        "/page03",
+                                        "/page04",
+                                        "/page02"
+                                    ],
+                                    "allowEditOnly": true
+                                },
+                                "group": "General",
+                                "displayName": "Target Page",
+                                "name": "target",
+                                "index": 2
+                            }
+                        ],
+                        "children": []
+                    },
+                    {
+                        "id": "a0d3ff01-ebef-355f-afda-0dff921112d2",
+                        "type": "RouterNavigate",
+                        "x": 232,
+                        "y": 293,
+                        "parameters": {
+                            "router": "Main",
+                            "target": "/page04"
+                        },
+                        "ports": [],
+                        "dynamicports": [
+                            {
+                                "plug": "input",
+                                "type": {
+                                    "name": "component",
+                                    "title": "Choose page component",
+                                    "components": [
+                                        "/page01",
+                                        "/page05",
+                                        "/page03",
+                                        "/page04",
+                                        "/page02"
+                                    ],
+                                    "allowEditOnly": true
+                                },
+                                "group": "General",
+                                "displayName": "Target Page",
+                                "name": "target",
+                                "index": 2
+                            }
+                        ],
+                        "children": []
+                    },
+                    {
+                        "id": "032968d9-d72f-d364-d6e1-3400166067fe",
+                        "type": "RouterNavigate",
+                        "x": 236,
+                        "y": 129,
+                        "parameters": {
+                            "router": "Main",
+                            "target": "/page02"
+                        },
+                        "ports": [],
+                        "dynamicports": [
+                            {
+                                "plug": "input",
+                                "type": {
+                                    "name": "component",
+                                    "title": "Choose page component",
+                                    "components": [
+                                        "/page01",
+                                        "/page05",
+                                        "/page03",
+                                        "/page04",
+                                        "/page02"
+                                    ],
+                                    "allowEditOnly": true
+                                },
+                                "group": "General",
+                                "displayName": "Target Page",
+                                "name": "target",
+                                "index": 2
+                            }
+                        ],
+                        "children": []
+                    }
+                ]
+            },
+            "metadata": {
+                "canvasPos": {
+                    "x": 1611.0489756245943,
+                    "y": 386.7016162392538
+                }
+            }
+        },
+        {
+            "name": "/page01",
+            "id": "4973da28-06a8-405a-9f31-fe0f3fe8be43",
+            "graph": {
+                "connections": [
+                    {
+                        "fromId": "442129f5-7734-43fa-b074-2a19edd41737",
+                        "fromProperty": "boundingWidth",
+                        "toId": "a1017b66-bc95-2b02-ea6d-a023d28344c3",
+                        "toProperty": "width"
+                    },
+                    {
+                        "fromId": "442129f5-7734-43fa-b074-2a19edd41737",
+                        "fromProperty": "this",
+                        "toId": "a1017b66-bc95-2b02-ea6d-a023d28344c3",
+                        "toProperty": "group"
+                    },
+                    {
+                        "fromId": "442129f5-7734-43fa-b074-2a19edd41737",
+                        "fromProperty": "didMount",
+                        "toId": "a1017b66-bc95-2b02-ea6d-a023d28344c3",
+                        "toProperty": "InitCanvas"
+                    },
+                    {
+                        "fromId": "442129f5-7734-43fa-b074-2a19edd41737",
+                        "fromProperty": "boundingHeight",
+                        "toId": "a1017b66-bc95-2b02-ea6d-a023d28344c3",
+                        "toProperty": "height"
+                    }
+                ],
+                "roots": [
+                    {
+                        "id": "e4df5ef2-1fba-51fe-386f-a978c96b0b4d",
+                        "type": "Page",
+                        "x": 0,
+                        "y": 0,
+                        "parameters": {},
+                        "ports": [],
+                        "dynamicports": [
+                            {
+                                "name": "title",
+                                "displayName": "Title",
+                                "type": "string",
+                                "group": "General",
+                                "plug": "input",
+                                "default": "page01",
+                                "index": 14
+                            },
+                            {
+                                "name": "urlPath",
+                                "displayName": "Url Path",
+                                "type": "string",
+                                "group": "General",
+                                "plug": "input",
+                                "default": "page01",
+                                "index": 15
+                            }
+                        ],
+                        "children": [
+                            {
+                                "id": "442129f5-7734-43fa-b074-2a19edd41737",
+                                "type": "Group",
+                                "parameters": {
+                                    "boxShadowEnabled": false
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "id": "8497d2e2-9e22-0533-44b4-f7ab4170b1cb",
+                        "type": "PageInputs",
+                        "x": -100,
+                        "y": -50,
+                        "parameters": {},
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": []
+                    },
+                    {
+                        "id": "a1017b66-bc95-2b02-ea6d-a023d28344c3",
+                        "type": "Javascript2",
+                        "x": -223.66666666666663,
+                        "y": 48.803611347998384,
+                        "parameters": {
+                            "code": "Node.Inputs={\n    width:'number',\n    height:'number',\n    group:'reference',\n}\n\nNode.Signals.InitCanvas = function(){\n    let canvas = document.createElement(\"canvas\");\n    let ctx=Node.Inputs.group.getDOMElement().appendChild(canvas);\n\n    var myLineChart = new Chart(ctx, {\n        type: 'line',\n        data: {\n            labels: ['8/1', '8/2', '8/3', '8/4', '8/5', '8/6', '8//7'],\n            datasets: [\n                {\n                    label: 'Max Temp(℃）',\n                    data: [35, 34, 37, 35, 34, 35, 34, 25],\n                    borderColor: \"rgba(255,0,0,1)\",\n                    backgroundColor: \"rgba(0,0,0,0)\"\n                },\n                {\n                    label: 'Min Temp(℃）',\n                    data: [25, 27, 27, 25, 26, 27, 25, 21],\n                    borderColor: \"rgba(0,0,255,1)\",\n                    backgroundColor: \"rgba(0,0,0,0)\"\n                }\n            ],\n        },\n        options: {\n            responsive: true,\n            maintainAspectRatio: false,\n            plugins:{title: {\n                display: true,\n                text: 'Temperature（8/1~8/7）'\n            }},\n        }\n    });\n}\n\n"
+                        },
+                        "ports": [],
+                        "dynamicports": [
+                            {
+                                "name": "width",
+                                "plug": "input",
+                                "type": {
+                                    "name": "number"
+                                },
+                                "group": "Inputs",
+                                "index": 5
+                            },
+                            {
+                                "name": "height",
+                                "plug": "input",
+                                "type": {
+                                    "name": "number"
+                                },
+                                "group": "Inputs",
+                                "index": 6
+                            },
+                            {
+                                "name": "group",
+                                "plug": "input",
+                                "type": {
+                                    "name": "reference"
+                                },
+                                "group": "Inputs",
+                                "index": 7
+                            },
+                            {
+                                "name": "InitCanvas",
+                                "plug": "input",
+                                "type": {
+                                    "name": "signal"
+                                },
+                                "group": "Inputs",
+                                "index": 8
+                            }
+                        ],
+                        "children": []
+                    }
+                ]
+            },
+            "metadata": {
+                "canvasPos": {
+                    "x": 2700.507012765088,
+                    "y": 176.25861240475197
+                }
+            }
+        },
+        {
+            "name": "/page02",
+            "id": "68290e2d-1f35-03df-6929-a4a29a8c143e",
+            "graph": {
+                "connections": [
+                    {
+                        "fromId": "a28160a6-f817-df76-804e-d30f0735c5c5",
+                        "fromProperty": "boundingWidth",
+                        "toId": "9b4f4156-95cd-a8aa-a236-248a3c2b2538",
+                        "toProperty": "width"
+                    },
+                    {
+                        "fromId": "a28160a6-f817-df76-804e-d30f0735c5c5",
+                        "fromProperty": "boundingHeight",
+                        "toId": "9b4f4156-95cd-a8aa-a236-248a3c2b2538",
+                        "toProperty": "height"
+                    },
+                    {
+                        "fromId": "a28160a6-f817-df76-804e-d30f0735c5c5",
+                        "fromProperty": "this",
+                        "toId": "9b4f4156-95cd-a8aa-a236-248a3c2b2538",
+                        "toProperty": "group"
+                    },
+                    {
+                        "fromId": "a28160a6-f817-df76-804e-d30f0735c5c5",
+                        "fromProperty": "didMount",
+                        "toId": "9b4f4156-95cd-a8aa-a236-248a3c2b2538",
+                        "toProperty": "InitCanvas"
+                    }
+                ],
+                "roots": [
+                    {
+                        "id": "eeea07e0-e897-cbf5-7394-c8cf98214baa",
+                        "type": "Page",
+                        "x": 0,
+                        "y": 0,
+                        "parameters": {},
+                        "ports": [],
+                        "dynamicports": [
+                            {
+                                "name": "title",
+                                "displayName": "Title",
+                                "type": "string",
+                                "group": "General",
+                                "plug": "input",
+                                "default": "page02",
+                                "index": 14
+                            },
+                            {
+                                "name": "urlPath",
+                                "displayName": "Url Path",
+                                "type": "string",
+                                "group": "General",
+                                "plug": "input",
+                                "default": "page02",
+                                "index": 15
+                            }
+                        ],
+                        "children": [
+                            {
+                                "id": "a28160a6-f817-df76-804e-d30f0735c5c5",
+                                "type": "Group",
+                                "parameters": {
+                                    "boxShadowEnabled": false,
+                                    "mounted": true
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "id": "9b415630-230f-ee91-c1e3-b61faec2b987",
+                        "type": "PageInputs",
+                        "x": -100,
+                        "y": -50,
+                        "parameters": {},
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": []
+                    },
+                    {
+                        "id": "9b4f4156-95cd-a8aa-a236-248a3c2b2538",
+                        "type": "Javascript2",
+                        "x": 255.3224985013278,
+                        "y": 47.14638574197181,
+                        "parameters": {
+                            "code": "Node.Inputs={\n    width:'number',\n    height:'number',\n    group:'reference',\n}\n\nvar chartVal = []; // グラフデータ（描画するデータ）\nvar myChart;\n\n// グラフデータをランダムに生成\nfunction getRandom() {\n    chartVal = []; // 配列を初期化\n    var length = 53;\n    for (i = 0; i < length; i++) {\n        chartVal.push(Math.floor(Math.random() * 10));\n    }\n}\n\nconst CHART_COLORS = {\n    red: 'rgb(255, 99, 132)',\n    orange: 'rgb(255, 159, 64)',\n    yellow: 'rgb(255, 205, 86)',\n    green: 'rgb(75, 192, 192)',\n    blue: 'rgb(54, 162, 235)',\n    purple: 'rgb(153, 102, 255)',\n    grey: 'rgb(201, 203, 207)'\n};\n\nNode.Signals.InitCanvas = function(){\n    let canvas = document.createElement(\"canvas\");\n    let ctx=Node.Inputs.group.getDOMElement().appendChild(canvas);\n    getRandom();\n    \n    myChart = new Chart(ctx, {\n  type: 'line',\n  data: {\n    labels: [1968, 1969,\n      1970, 1971, 1972, 1973, 1974, 1975, 1976, 1977, 1978, 1979,\n      1980, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989,\n      1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999,\n      2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009,\n      2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019,\n      2020],\n    datasets: [{\n      label: 'Carp',\n      data:  chartVal,\n      borderColor: '#f88',\n    }],\n  },\n  options: {\n    responsive: true,\n    maintainAspectRatio: false,\n    scales: {\n      y: {\n        reverse: true,\n      },\n    },\n  },\n});\n}\n\n"
+                        },
+                        "ports": [],
+                        "dynamicports": [
+                            {
+                                "name": "width",
+                                "plug": "input",
+                                "type": {
+                                    "name": "number"
+                                },
+                                "group": "Inputs",
+                                "index": 5
+                            },
+                            {
+                                "name": "height",
+                                "plug": "input",
+                                "type": {
+                                    "name": "number"
+                                },
+                                "group": "Inputs",
+                                "index": 6
+                            },
+                            {
+                                "name": "group",
+                                "plug": "input",
+                                "type": {
+                                    "name": "reference"
+                                },
+                                "group": "Inputs",
+                                "index": 7
+                            },
+                            {
+                                "name": "InitCanvas",
+                                "plug": "input",
+                                "type": {
+                                    "name": "signal"
+                                },
+                                "group": "Inputs",
+                                "index": 8
+                            }
+                        ],
+                        "children": []
+                    }
+                ]
+            },
+            "metadata": {
+                "canvasPos": {
+                    "x": 3119.6846766544886,
+                    "y": 166.23751698406153
+                }
+            }
+        },
+        {
+            "name": "/page03",
+            "id": "910da81c-a682-042d-0dbe-d6981f6dd136",
+            "graph": {
+                "connections": [
+                    {
+                        "fromId": "9f5197ab-8252-c523-55b8-613b3ea452a9",
+                        "fromProperty": "boundingWidth",
+                        "toId": "5c84e3ac-bb92-8a68-d43d-9cb4bf7d74cc",
+                        "toProperty": "width"
+                    },
+                    {
+                        "fromId": "9f5197ab-8252-c523-55b8-613b3ea452a9",
+                        "fromProperty": "boundingHeight",
+                        "toId": "5c84e3ac-bb92-8a68-d43d-9cb4bf7d74cc",
+                        "toProperty": "height"
+                    },
+                    {
+                        "fromId": "9f5197ab-8252-c523-55b8-613b3ea452a9",
+                        "fromProperty": "this",
+                        "toId": "5c84e3ac-bb92-8a68-d43d-9cb4bf7d74cc",
+                        "toProperty": "group"
+                    },
+                    {
+                        "fromId": "9f5197ab-8252-c523-55b8-613b3ea452a9",
+                        "fromProperty": "didMount",
+                        "toId": "5c84e3ac-bb92-8a68-d43d-9cb4bf7d74cc",
+                        "toProperty": "InitCanvas"
+                    },
+                    {
+                        "fromId": "6f35d7e9-cbdc-40c6-94a4-c3199e190a3a",
+                        "fromProperty": "items",
+                        "toId": "5c84e3ac-bb92-8a68-d43d-9cb4bf7d74cc",
+                        "toProperty": "datas"
+                    },
+                    {
+                        "fromId": "06716590-5874-4eb0-362a-3225dd14c94a",
+                        "fromProperty": "onClick",
+                        "toId": "5c84e3ac-bb92-8a68-d43d-9cb4bf7d74cc",
+                        "toProperty": "Update"
+                    },
+                    {
+                        "fromId": "376b4daf-53a2-6694-30b4-3809b719a01a",
+                        "fromProperty": "onTextChanged",
+                        "toId": "5c84e3ac-bb92-8a68-d43d-9cb4bf7d74cc",
+                        "toProperty": "value"
+                    }
+                ],
+                "roots": [
+                    {
+                        "id": "1d7e950a-158c-8e50-5430-01e7fa826c6e",
+                        "type": "Page",
+                        "x": 0,
+                        "y": 0,
+                        "parameters": {},
+                        "ports": [],
+                        "dynamicports": [
+                            {
+                                "name": "title",
+                                "displayName": "Title",
+                                "type": "string",
+                                "group": "General",
+                                "plug": "input",
+                                "default": "page03",
+                                "index": 14
+                            },
+                            {
+                                "name": "urlPath",
+                                "displayName": "Url Path",
+                                "type": "string",
+                                "group": "General",
+                                "plug": "input",
+                                "default": "page03",
+                                "index": 15
+                            }
+                        ],
+                        "children": [
+                            {
+                                "id": "9f5197ab-8252-c523-55b8-613b3ea452a9",
+                                "type": "Group",
+                                "parameters": {
+                                    "boxShadowEnabled": false
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": []
+                            },
+                            {
+                                "id": "376b4daf-53a2-6694-30b4-3809b719a01a",
+                                "type": "net.noodl.controls.textinput",
+                                "parameters": {
+                                    "type": "number",
+                                    "placeholder": "Value here",
+                                    "startValue": "10",
+                                    "label": "value",
+                                    "marginLeft": {
+                                        "value": 5,
+                                        "unit": "px"
+                                    },
+                                    "marginRight": {
+                                        "value": 5,
+                                        "unit": "px"
+                                    }
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": []
+                            },
+                            {
+                                "id": "06716590-5874-4eb0-362a-3225dd14c94a",
+                                "type": "net.noodl.controls.button",
+                                "parameters": {
+                                    "alignX": "center",
+                                    "alignY": "top",
+                                    "label": "Update",
+                                    "backgroundColor": "#36F549",
+                                    "marginBottom": {
+                                        "value": 5,
+                                        "unit": "px"
+                                    },
+                                    "marginTop": {
+                                        "value": 5,
+                                        "unit": "px"
+                                    }
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "id": "74fb569b-70a8-c4e8-f834-e70eb8fbfdfc",
+                        "type": "PageInputs",
+                        "x": -100,
+                        "y": -50,
+                        "parameters": {},
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": []
+                    },
+                    {
+                        "id": "5c84e3ac-bb92-8a68-d43d-9cb4bf7d74cc",
+                        "type": "Javascript2",
+                        "x": 331.82219033727677,
+                        "y": 59.565933813189616,
+                        "parameters": {
+                            "code": "Node.Inputs = {\r\n    width: 'number',\r\n    height: 'number',\r\n    group: 'reference',\r\n    datas: 'array',\r\n    value: 'number',\r\n}\r\n\r\nvar myChart;\r\n\r\nNode.Signals.InitCanvas = function () {\r\n    let canvas = document.createElement(\"canvas\");\r\n    let ctx = Node.Inputs.group.getDOMElement().appendChild(canvas);\r\n\r\n    const array_label = [];\r\n    const array_data = [];\r\n    for (let i = 0; i < Node.Inputs.datas.items.length; i++) {\r\n        array_label.push(Node.Inputs.datas.items[i].data.labels);\r\n        array_data.push(Node.Inputs.datas.items[i].data.data);\r\n    };\r\n\r\n    myChart = new Chart(ctx, {\r\n        type: 'bar',\r\n        data: {\r\n            maintainAspectRatio: false,\r\n            labels:array_label,\r\n            datasets: [{\r\n                label: '# of Votes',\r\n                data: array_data,\r\n                backgroundColor: [\r\n                    'rgba(255, 99, 132, 0.2)',\r\n                    'rgba(54, 162, 235, 0.2)',\r\n                    'rgba(255, 206, 86, 0.2)',\r\n                    'rgba(75, 192, 192, 0.2)',\r\n                    'rgba(153, 102, 255, 0.2)',\r\n                    'rgba(255, 159, 64, 0.2)'\r\n                ],\r\n                borderColor: [\r\n                    'rgba(255, 99, 132, 1)',\r\n                    'rgba(54, 162, 235, 1)',\r\n                    'rgba(255, 206, 86, 1)',\r\n                    'rgba(75, 192, 192, 1)',\r\n                    'rgba(153, 102, 255, 1)',\r\n                    'rgba(255, 159, 64, 1)'\r\n                ],\r\n                borderWidth: 1\r\n            }]\r\n        },\r\n        options: {\r\n            responsive: true,\r\n            maintainAspectRatio: false,\r\n            scales: {\r\n                y: {\r\n                    beginAtZero: true\r\n                }\r\n            }\r\n        }\r\n    });\r\n}\r\n\r\nNode.Signals.Update = function () {\r\n    myChart.data.labels.push(\"NEW\");\r\n    let val = Node.Inputs.value;\r\n\r\n    myChart.data.datasets.forEach((dataset) => {\r\n        dataset.data.push(val);\r\n    });\r\n    myChart.update();\r\n}\r\n\r\n"
+                        },
+                        "ports": [],
+                        "dynamicports": [
+                            {
+                                "name": "width",
+                                "plug": "input",
+                                "type": {
+                                    "name": "number"
+                                },
+                                "group": "Inputs",
+                                "index": 5
+                            },
+                            {
+                                "name": "height",
+                                "plug": "input",
+                                "type": {
+                                    "name": "number"
+                                },
+                                "group": "Inputs",
+                                "index": 6
+                            },
+                            {
+                                "name": "group",
+                                "plug": "input",
+                                "type": {
+                                    "name": "reference"
+                                },
+                                "group": "Inputs",
+                                "index": 7
+                            },
+                            {
+                                "name": "datas",
+                                "plug": "input",
+                                "type": {
+                                    "name": "array"
+                                },
+                                "group": "Inputs",
+                                "index": 8
+                            },
+                            {
+                                "name": "value",
+                                "plug": "input",
+                                "type": {
+                                    "name": "number"
+                                },
+                                "group": "Inputs",
+                                "index": 9
+                            },
+                            {
+                                "name": "InitCanvas",
+                                "plug": "input",
+                                "type": {
+                                    "name": "signal"
+                                },
+                                "group": "Inputs",
+                                "index": 10
+                            },
+                            {
+                                "name": "Update",
+                                "plug": "input",
+                                "type": {
+                                    "name": "signal"
+                                },
+                                "group": "Inputs",
+                                "index": 11
+                            }
+                        ],
+                        "children": []
+                    },
+                    {
+                        "id": "6f35d7e9-cbdc-40c6-94a4-c3199e190a3a",
+                        "type": "Static Data",
+                        "x": 541.5529215385683,
+                        "y": 54.33673073448563,
+                        "parameters": {
+                            "csv": "labels,data\nRed,12\nBlue,19\nYellow,3\nGreen,5\nPurple,2\nOrange,3"
+                        },
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": []
+                    }
+                ]
+            },
+            "metadata": {
+                "canvasPos": {
+                    "x": 3530.338249399563,
+                    "y": 159.55678670360106
+                }
+            }
+        },
+        {
+            "name": "/page04",
+            "id": "e41a5e87-faf5-bddd-c36c-0b479400358d",
+            "graph": {
+                "connections": [
+                    {
+                        "fromId": "629fb834-fe0d-dd7b-c319-78d114302ac6",
+                        "fromProperty": "boundingWidth",
+                        "toId": "c53880d8-b007-2891-141a-5f677a05030f",
+                        "toProperty": "width"
+                    },
+                    {
+                        "fromId": "629fb834-fe0d-dd7b-c319-78d114302ac6",
+                        "fromProperty": "boundingHeight",
+                        "toId": "c53880d8-b007-2891-141a-5f677a05030f",
+                        "toProperty": "height"
+                    },
+                    {
+                        "fromId": "629fb834-fe0d-dd7b-c319-78d114302ac6",
+                        "fromProperty": "this",
+                        "toId": "c53880d8-b007-2891-141a-5f677a05030f",
+                        "toProperty": "group"
+                    },
+                    {
+                        "fromId": "629fb834-fe0d-dd7b-c319-78d114302ac6",
+                        "fromProperty": "didMount",
+                        "toId": "c53880d8-b007-2891-141a-5f677a05030f",
+                        "toProperty": "InitCanvas"
+                    },
+                    {
+                        "fromId": "1e71a09d-ab26-d531-d9d6-ffb58ab19953",
+                        "fromProperty": "click",
+                        "toId": "c53880d8-b007-2891-141a-5f677a05030f",
+                        "toProperty": "Update"
+                    },
+                    {
+                        "fromId": "bb38acfa-480e-b2c2-517c-70212204f4a0",
+                        "fromProperty": "items",
+                        "toId": "c53880d8-b007-2891-141a-5f677a05030f",
+                        "toProperty": "datas"
+                    }
+                ],
+                "roots": [
+                    {
+                        "id": "1d29b98a-2a0f-9c17-55b9-8f57ee25f779",
+                        "type": "Page",
+                        "x": 0,
+                        "y": 0,
+                        "parameters": {},
+                        "ports": [],
+                        "dynamicports": [
+                            {
+                                "name": "title",
+                                "displayName": "Title",
+                                "type": "string",
+                                "group": "General",
+                                "plug": "input",
+                                "default": "page04",
+                                "index": 14
+                            },
+                            {
+                                "name": "urlPath",
+                                "displayName": "Url Path",
+                                "type": "string",
+                                "group": "General",
+                                "plug": "input",
+                                "default": "page04",
+                                "index": 15
+                            }
+                        ],
+                        "children": [
+                            {
+                                "id": "1e71a09d-ab26-d531-d9d6-ffb58ab19953",
+                                "type": "/AddBox",
+                                "parameters": {},
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": []
+                            },
+                            {
+                                "id": "629fb834-fe0d-dd7b-c319-78d114302ac6",
+                                "type": "Group",
+                                "parameters": {
+                                    "boxShadowEnabled": false,
+                                    "mounted": true
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "id": "1a05eca4-9d5a-68d1-03f9-51ff8fabd242",
+                        "type": "PageInputs",
+                        "x": -100,
+                        "y": -50,
+                        "parameters": {},
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": []
+                    },
+                    {
+                        "id": "c53880d8-b007-2891-141a-5f677a05030f",
+                        "type": "Javascript2",
+                        "x": 261.51698618130706,
+                        "y": 66.0194142486709,
+                        "parameters": {
+                            "code": "Node.Inputs={\n    width:'number',\n    height:'number',\n    group:'reference',\n    datas: 'array',\n}\n\nvar myChart;\n\nNode.Signals.InitCanvas = function(){\n    let canvas = document.createElement(\"canvas\");\n    let ctx=Node.Inputs.group.getDOMElement().appendChild(canvas);\n    \n    myChart = new Chart(ctx, {\n    type: 'radar',\n    data: {\n        labels: ['Data1', 'Data2', 'Data3', 'Data4', 'Data5'],\n        datasets: [{\n            label: 'Name',\n            data: [80, 60, 40, 90, 50],\n            borderColor: 'red',\n        }],\n    },\n    options: {\n        responsive: true,\n        maintainAspectRatio: false,\n        scales: {\n            r: {\n            min: 0,\n            max: 100,\n            backgroundColor: 'snow',\n            grid: {\n                color: 'pink',\n            },\n            angleLines: {\n                color: 'green',\n            },\n            pointLabels: {\n                color: 'blue',\n            },\n            },\n        },\n    }, \n});\n}\n\nNode.Signals.Update = function () {\n    const i =Node.Inputs.datas.items.length-1;\n    const obj={\n        label: Node.Inputs.datas.items[i].data.name,\n        data: [\n            Node.Inputs.datas.items[i].data.data1,\n            Node.Inputs.datas.items[i].data.data2,\n            Node.Inputs.datas.items[i].data.data3,\n            Node.Inputs.datas.items[i].data.data4,\n            Node.Inputs.datas.items[i].data.data5\n        ],\n        borderColor: Node.Inputs.datas.items[i].color,\n    };\n    myChart.data.datasets.push(obj);\n    myChart.update();\n}\n\n\n"
+                        },
+                        "ports": [],
+                        "dynamicports": [
+                            {
+                                "name": "width",
+                                "plug": "input",
+                                "type": {
+                                    "name": "number"
+                                },
+                                "group": "Inputs",
+                                "index": 5
+                            },
+                            {
+                                "name": "height",
+                                "plug": "input",
+                                "type": {
+                                    "name": "number"
+                                },
+                                "group": "Inputs",
+                                "index": 6
+                            },
+                            {
+                                "name": "group",
+                                "plug": "input",
+                                "type": {
+                                    "name": "reference"
+                                },
+                                "group": "Inputs",
+                                "index": 7
+                            },
+                            {
+                                "name": "datas",
+                                "plug": "input",
+                                "type": {
+                                    "name": "array"
+                                },
+                                "group": "Inputs",
+                                "index": 8
+                            },
+                            {
+                                "name": "InitCanvas",
+                                "plug": "input",
+                                "type": {
+                                    "name": "signal"
+                                },
+                                "group": "Inputs",
+                                "index": 9
+                            },
+                            {
+                                "name": "Update",
+                                "plug": "input",
+                                "type": {
+                                    "name": "signal"
+                                },
+                                "group": "Inputs",
+                                "index": 10
+                            }
+                        ],
+                        "children": []
+                    },
+                    {
+                        "id": "bb38acfa-480e-b2c2-517c-70212204f4a0",
+                        "type": "Collection2",
+                        "x": 476.51852104994595,
+                        "y": 50.459774211939475,
+                        "parameters": {
+                            "collectionId": "DataArray"
+                        },
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": []
+                    }
+                ]
+            },
+            "metadata": {
+                "canvasPos": {
+                    "x": 3981.9978842593327,
+                    "y": 156.2164215633709
+                }
+            }
+        },
+        {
+            "name": "/page05",
+            "id": "cdb44a65-7189-67fc-a7bf-013abaccbf0e",
+            "graph": {
+                "connections": [
+                    {
+                        "fromId": "ae617906-8711-0040-3fc8-0745959ff72f",
+                        "fromProperty": "boundingWidth",
+                        "toId": "5a2f0706-d495-875b-df53-8884ca8cfc7f",
+                        "toProperty": "width"
+                    },
+                    {
+                        "fromId": "ae617906-8711-0040-3fc8-0745959ff72f",
+                        "fromProperty": "boundingHeight",
+                        "toId": "5a2f0706-d495-875b-df53-8884ca8cfc7f",
+                        "toProperty": "height"
+                    },
+                    {
+                        "fromId": "ae617906-8711-0040-3fc8-0745959ff72f",
+                        "fromProperty": "this",
+                        "toId": "5a2f0706-d495-875b-df53-8884ca8cfc7f",
+                        "toProperty": "group"
+                    },
+                    {
+                        "fromId": "ae617906-8711-0040-3fc8-0745959ff72f",
+                        "fromProperty": "didMount",
+                        "toId": "5a2f0706-d495-875b-df53-8884ca8cfc7f",
+                        "toProperty": "InitCanvas"
+                    },
+                    {
+                        "fromId": "44cd90b9-ddd6-5231-5989-99c19cb87ae9",
+                        "fromProperty": "onTextChanged",
+                        "toId": "5a2f0706-d495-875b-df53-8884ca8cfc7f",
+                        "toProperty": "value"
+                    },
+                    {
+                        "fromId": "c24c29e6-2a0b-76b4-95fe-5711b2646b3d",
+                        "fromProperty": "onClick",
+                        "toId": "5a2f0706-d495-875b-df53-8884ca8cfc7f",
+                        "toProperty": "Update"
+                    }
+                ],
+                "roots": [
+                    {
+                        "id": "bb9bc560-e13b-2478-3ab2-5ee0bbdfcfcf",
+                        "type": "Page",
+                        "x": 0,
+                        "y": 0,
+                        "parameters": {},
+                        "ports": [],
+                        "dynamicports": [
+                            {
+                                "name": "title",
+                                "displayName": "Title",
+                                "type": "string",
+                                "group": "General",
+                                "plug": "input",
+                                "default": "page05",
+                                "index": 14
+                            },
+                            {
+                                "name": "urlPath",
+                                "displayName": "Url Path",
+                                "type": "string",
+                                "group": "General",
+                                "plug": "input",
+                                "default": "page05",
+                                "index": 15
+                            }
+                        ],
+                        "children": [
+                            {
+                                "id": "ae617906-8711-0040-3fc8-0745959ff72f",
+                                "type": "Group",
+                                "parameters": {
+                                    "boxShadowEnabled": false
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": []
+                            },
+                            {
+                                "id": "44cd90b9-ddd6-5231-5989-99c19cb87ae9",
+                                "type": "net.noodl.controls.textinput",
+                                "parameters": {
+                                    "type": "number",
+                                    "placeholder": "Value here",
+                                    "startValue": "10",
+                                    "label": "value",
+                                    "marginLeft": {
+                                        "value": 5,
+                                        "unit": "px"
+                                    },
+                                    "marginRight": {
+                                        "value": 5,
+                                        "unit": "px"
+                                    }
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": []
+                            },
+                            {
+                                "id": "c24c29e6-2a0b-76b4-95fe-5711b2646b3d",
+                                "type": "net.noodl.controls.button",
+                                "parameters": {
+                                    "alignX": "center",
+                                    "alignY": "top",
+                                    "label": "Update",
+                                    "backgroundColor": "#36F549",
+                                    "marginBottom": {
+                                        "value": 5,
+                                        "unit": "px"
+                                    },
+                                    "marginTop": {
+                                        "value": 5,
+                                        "unit": "px"
+                                    }
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "id": "86a68550-0c6a-fa24-4900-7556ae79e9a6",
+                        "type": "PageInputs",
+                        "x": -100,
+                        "y": -50,
+                        "parameters": {},
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": []
+                    },
+                    {
+                        "id": "5a2f0706-d495-875b-df53-8884ca8cfc7f",
+                        "type": "Javascript2",
+                        "x": -197.04584238764744,
+                        "y": 41.72083462680678,
+                        "parameters": {
+                            "code": "Node.Inputs={\n    width:'number',\n    height:'number',\n    group:'reference',\n    value: 'number',\n}\n\nconst CHART_COLORS = {\n    red: 'rgb(255, 99, 132)',\n    orange: 'rgb(255, 159, 64)',\n    yellow: 'rgb(255, 205, 86)',\n    green: 'rgb(75, 192, 192)',\n    blue: 'rgb(54, 162, 235)',\n    purple: 'rgb(153, 102, 255)',\n    grey: 'rgb(201, 203, 207)'\n};\n\nconst data = {\n    labels: ['Red', 'Orange', 'Yellow', 'Green', 'Blue'],\n    datasets: [\n        {\n            label: 'Dataset',\n            data: [30, 30, 20, 10, 10],\n            backgroundColor: Object.values(CHART_COLORS),\n        }\n    ]\n};\n\nconst config = {\n    type: 'doughnut',\n    data: data\n};\n\nvar myChart;\n\nNode.Signals.InitCanvas = function(){\n    let canvas = document.createElement(\"canvas\");\n    let ctx=Node.Inputs.group.getDOMElement().appendChild(canvas);\n    myChart = new Chart(ctx, config);\n}\n\nNode.Signals.Update = function () {\n    myChart.data.labels.push(\"NEW\");\n    myChart.data.datasets.forEach((dataset) => {\n        dataset.data.push(Node.Inputs.value);\n    });\n    myChart.update();\n}\n\n"
+                        },
+                        "ports": [],
+                        "dynamicports": [
+                            {
+                                "name": "width",
+                                "plug": "input",
+                                "type": {
+                                    "name": "number"
+                                },
+                                "group": "Inputs",
+                                "index": 5
+                            },
+                            {
+                                "name": "height",
+                                "plug": "input",
+                                "type": {
+                                    "name": "number"
+                                },
+                                "group": "Inputs",
+                                "index": 6
+                            },
+                            {
+                                "name": "group",
+                                "plug": "input",
+                                "type": {
+                                    "name": "reference"
+                                },
+                                "group": "Inputs",
+                                "index": 7
+                            },
+                            {
+                                "name": "value",
+                                "plug": "input",
+                                "type": {
+                                    "name": "number"
+                                },
+                                "group": "Inputs",
+                                "index": 8
+                            },
+                            {
+                                "name": "InitCanvas",
+                                "plug": "input",
+                                "type": {
+                                    "name": "signal"
+                                },
+                                "group": "Inputs",
+                                "index": 9
+                            },
+                            {
+                                "name": "Update",
+                                "plug": "input",
+                                "type": {
+                                    "name": "signal"
+                                },
+                                "group": "Inputs",
+                                "index": 10
+                            }
+                        ],
+                        "children": []
+                    }
+                ]
+            },
+            "metadata": {
+                "canvasPos": {
+                    "x": 4394.782479790486,
+                    "y": 149.53569128291053
+                }
+            }
+        }
+    ],
+    "settings": {
+        "headCode": "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js\"></script>\n"
+    },
+    "rootNodeId": "e0d2e8ee-71c1-f8a8-779f-7c7e5d85c005",
+    "version": "3",
+    "metadata": {
+        "dbCollections": [],
+        "styles": {
+            "text": {
+                "Body Text": {
+                    "fontFamily": "fonts/Roboto/Roboto-Regular.ttf",
+                    "fontSize": {
+                        "value": "18",
+                        "unit": "px"
+                    },
+                    "color": "#000000"
+                },
+                "Button Label": {
+                    "fontFamily": "fonts/Roboto/Roboto-Regular.ttf",
+                    "fontSize": {
+                        "value": "16",
+                        "unit": "px"
+                    },
+                    "color": "#000000"
+                },
+                "Label Text": {
+                    "fontFamily": "fonts/Roboto/Roboto-Regular.ttf",
+                    "fontSize": {
+                        "value": "14",
+                        "unit": "px"
+                    },
+                    "color": "#000000"
+                }
+            },
+            "colors": {
+                "Primary": "#5836F5",
+                "Light Gray": "#C6C6C6",
+                "Dark Gray": "#434B53",
+                "Primary Dark": "#3F22B8",
+                "Dark": "#1F1F1F",
+                "Primary Light": "#C9BFFC",
+                "Update": "#5836F5"
+            }
+        },
+        "cloudservices": {
+            "workspaceId": "MiyLab"
+        }
+    },
+    "variants": [
+        {
+            "typename": "net.noodl.controls.button",
+            "parameters": {
+                "height": {
+                    "value": 40,
+                    "unit": "px"
+                },
+                "sizeMode": "contentWidth",
+                "backgroundColor": "Primary",
+                "iconIconSource": {
+                    "class": "material-icons",
+                    "code": "home"
+                },
+                "iconSize": {
+                    "value": 22,
+                    "unit": "px"
+                },
+                "iconSpacing": {
+                    "value": 6,
+                    "unit": "px"
+                },
+                "borderRadius": {
+                    "value": 4,
+                    "unit": "px"
+                },
+                "textStyle": "Button Label",
+                "paddingTop": {
+                    "value": 5,
+                    "unit": "px"
+                },
+                "paddingLeft": {
+                    "value": 24,
+                    "unit": "px"
+                },
+                "paddingRight": {
+                    "value": 24,
+                    "unit": "px"
+                },
+                "paddingBottom": {
+                    "value": 4,
+                    "unit": "px"
+                },
+                "color": "#FFFFFF",
+                "fontFamily": "fonts/Roboto/Roboto-Medium.ttf"
+            },
+            "stateParamaters": {
+                "hover": {
+                    "backgroundColor": "Primary Dark"
+                },
+                "pressed": {
+                    "backgroundColor": "Primary Light",
+                    "color": "Primary Dark"
+                },
+                "disabled": {
+                    "backgroundColor": "Light Gray"
+                }
+            },
+            "stateTransitions": {},
+            "defaultStateTransitions": {
+                "neutral": {
+                    "curve": [
+                        0,
+                        0,
+                        0.58,
+                        1
+                    ],
+                    "dur": 300,
+                    "delay": 0
+                },
+                "hover": {
+                    "curve": [
+                        0,
+                        0,
+                        0.58,
+                        1
+                    ],
+                    "dur": 300,
+                    "delay": 0
+                },
+                "pressed": {
+                    "curve": [
+                        0,
+                        0,
+                        0.58,
+                        1
+                    ],
+                    "dur": 300,
+                    "delay": 0
+                }
+            }
+        },
+        {
+            "typename": "net.noodl.controls.radiobutton",
+            "parameters": {
+                "width": {
+                    "value": 24,
+                    "unit": "px"
+                },
+                "height": {
+                    "value": 24,
+                    "unit": "px"
+                },
+                "useLabel": true,
+                "labeltextStyle": "Label Text",
+                "borderWidth": {
+                    "value": 2,
+                    "unit": "px"
+                },
+                "value": "0",
+                "useIcon": false,
+                "fillColor": "transparent",
+                "borderColor": "#1F1F1F7F",
+                "labelfontSize": {
+                    "value": 16,
+                    "unit": "px"
+                }
+            },
+            "stateParamaters": {
+                "checked": {
+                    "fillColor": "Primary",
+                    "borderColor": "Primary",
+                    "borderWidth": {
+                        "value": 2,
+                        "unit": "px"
+                    },
+                    "backgroundColor": "#FFFFFF",
+                    "width": {
+                        "value": 24,
+                        "unit": "px"
+                    },
+                    "height": {
+                        "value": 24,
+                        "unit": "px"
+                    }
+                },
+                "hover": {
+                    "backgroundColor": "transparent",
+                    "borderColor": "Primary",
+                    "width": {
+                        "value": 24,
+                        "unit": "px"
+                    },
+                    "height": {
+                        "value": 24,
+                        "unit": "px"
+                    }
+                }
+            },
+            "stateTransitions": {},
+            "defaultStateTransitions": {
+                "neutral": {
+                    "curve": [
+                        0,
+                        0,
+                        0.58,
+                        1
+                    ],
+                    "dur": 300,
+                    "delay": 0
+                },
+                "hover": {
+                    "curve": [
+                        0,
+                        0,
+                        0.58,
+                        1
+                    ],
+                    "dur": 300,
+                    "delay": 0
+                },
+                "checked": {
+                    "curve": [
+                        0,
+                        0,
+                        0.58,
+                        1
+                    ],
+                    "dur": 300,
+                    "delay": 0
+                }
+            }
+        },
+        {
+            "typename": "Text",
+            "parameters": {
+                "textStyle": "Body Text"
+            },
+            "stateParamaters": {},
+            "stateTransitions": {}
+        },
+        {
+            "typename": "net.noodl.controls.range",
+            "parameters": {
+                "thumbColor": "Primary",
+                "thumbBorderRadius": {
+                    "value": 100,
+                    "unit": "%"
+                },
+                "trackHeight": {
+                    "value": 4,
+                    "unit": "px"
+                },
+                "trackActiveColor": "Primary",
+                "trackColor": "Primary Light",
+                "width": {
+                    "value": 100,
+                    "unit": "%"
+                }
+            },
+            "stateParamaters": {},
+            "stateTransitions": {}
+        },
+        {
+            "typename": "net.noodl.controls.checkbox",
+            "parameters": {
+                "width": {
+                    "value": 24,
+                    "unit": "px"
+                },
+                "height": {
+                    "value": 24,
+                    "unit": "px"
+                },
+                "useIcon": false,
+                "borderWidth": {
+                    "value": 2,
+                    "unit": "px"
+                },
+                "useLabel": true,
+                "labeltextStyle": "Label Text",
+                "borderRadius": {
+                    "value": 2,
+                    "unit": "px"
+                },
+                "borderColor": "#0000007F",
+                "labelfontSize": {
+                    "value": 16,
+                    "unit": "px"
+                },
+                "labelcolor": "Dark"
+            },
+            "stateParamaters": {
+                "checked": {
+                    "useIcon": true,
+                    "iconIconSource": {
+                        "class": "material-icons",
+                        "code": "check"
+                    },
+                    "backgroundColor": "Primary",
+                    "borderColor": "Primary",
+                    "iconSize": {
+                        "value": 16,
+                        "unit": "px"
+                    }
+                },
+                "disabled": {
+                    "opacity": 0.5
+                },
+                "hover": {
+                    "borderColor": "Primary"
+                },
+                "pressed": {}
+            },
+            "stateTransitions": {},
+            "defaultStateTransitions": {
+                "neutral": {
+                    "curve": [
+                        0,
+                        0,
+                        0.58,
+                        1
+                    ],
+                    "dur": 300,
+                    "delay": 0
+                },
+                "hover": {
+                    "curve": [
+                        0,
+                        0,
+                        0.58,
+                        1
+                    ],
+                    "dur": 300,
+                    "delay": 0
+                },
+                "checked": {
+                    "curve": [
+                        0,
+                        0,
+                        0.58,
+                        1
+                    ],
+                    "dur": 300,
+                    "delay": 0
+                }
+            }
+        },
+        {
+            "typename": "net.noodl.controls.textinput",
+            "parameters": {
+                "useLabel": true,
+                "sizeMode": "explicit",
+                "height": {
+                    "value": 40,
+                    "unit": "px"
+                },
+                "textStyle": "Body Text",
+                "borderStyle": "solid",
+                "borderRadius": {
+                    "value": 4,
+                    "unit": "px"
+                },
+                "borderWidth": {
+                    "value": 2,
+                    "unit": "px"
+                },
+                "borderColor": "#1F1F1F7F",
+                "labeltextStyle": "Label Text",
+                "paddingLeft": {
+                    "value": 8,
+                    "unit": "px"
+                },
+                "paddingRight": {
+                    "value": 8,
+                    "unit": "px"
+                },
+                "labelSpacing": {
+                    "value": 4,
+                    "unit": "px"
+                },
+                "placeholder": "Type here",
+                "labelcolor": "#1F1F1F7F",
+                "labeltextTransform": "uppercase",
+                "labelfontSize": {
+                    "value": 12,
+                    "unit": "px"
+                },
+                "labelfontFamily": "fonts/Roboto/Roboto-Medium.ttf"
+            },
+            "stateParamaters": {
+                "hover": {
+                    "labelcolor": "#000000",
+                    "borderColor": "Dark",
+                    "borderStyle": "solid"
+                },
+                "focused": {
+                    "borderColor": "Primary",
+                    "labelcolor": "Primary",
+                    "borderWidth": {
+                        "value": 2,
+                        "unit": "px"
+                    },
+                    "boxShadowEnabled": false,
+                    "boxShadowColor": "Primary",
+                    "borderStyle": "solid"
+                },
+                "disabled": {
+                    "labelcolor": "Light Gray",
+                    "backgroundColor": "Light Gray",
+                    "borderWidth": {
+                        "value": 1,
+                        "unit": "px"
+                    },
+                    "borderColor": "Light Gray"
+                }
+            },
+            "stateTransitions": {},
+            "defaultStateTransitions": {
+                "neutral": {
+                    "curve": [
+                        0,
+                        0,
+                        0.58,
+                        1
+                    ],
+                    "dur": 300,
+                    "delay": 0
+                },
+                "focused": {
+                    "curve": [
+                        0,
+                        0,
+                        0.58,
+                        1
+                    ],
+                    "dur": 300,
+                    "delay": 0
+                }
+            }
+        },
+        {
+            "typename": "net.noodl.controls.options",
+            "parameters": {
+                "sizeMode": "explicit",
+                "height": {
+                    "value": 40,
+                    "unit": "px"
+                },
+                "borderWidth": {
+                    "value": 2,
+                    "unit": "px"
+                },
+                "borderRadius": {
+                    "value": 4,
+                    "unit": "px"
+                },
+                "borderColor": "#1F1F1F7F",
+                "boxShadowColor": "Dark Gray",
+                "useIcon": true,
+                "iconIconSource": {
+                    "class": "material-icons",
+                    "code": "expand_more"
+                },
+                "iconPlacement": "right",
+                "iconSize": {
+                    "value": 24,
+                    "unit": "px"
+                },
+                "paddingRight": {
+                    "value": 8,
+                    "unit": "px"
+                },
+                "textStyle": "Body Text",
+                "paddingLeft": {
+                    "value": 8,
+                    "unit": "px"
+                },
+                "marginTop": {
+                    "value": 24,
+                    "unit": "px"
+                },
+                "width": {
+                    "value": 75,
+                    "unit": "%"
+                },
+                "iconColor": "#1F1F1F7F"
+            },
+            "stateParamaters": {
+                "hover": {
+                    "borderColor": "Dark",
+                    "borderRadius": {
+                        "value": 4,
+                        "unit": "px"
+                    },
+                    "iconColor": "Dark",
+                    "iconSize": {
+                        "value": 24,
+                        "unit": "px"
+                    },
+                    "iconPlacement": "right"
+                },
+                "focused": {
+                    "borderColor": "Primary",
+                    "boxShadowColor": "Primary",
+                    "borderRadius": {
+                        "value": 4,
+                        "unit": "px"
+                    },
+                    "useIcon": true,
+                    "iconColor": "Primary",
+                    "iconIconSource": {
+                        "class": "material-icons",
+                        "code": "keyboard_arrow_up"
+                    },
+                    "iconSize": {
+                        "value": 24,
+                        "unit": "px"
+                    },
+                    "iconPlacement": "right"
+                },
+                "pressed": {
+                    "borderRadius": {
+                        "value": 4,
+                        "unit": "px"
+                    }
+                }
+            },
+            "stateTransitions": {},
+            "defaultStateTransitions": {
+                "neutral": {
+                    "curve": [
+                        0,
+                        0,
+                        0.58,
+                        1
+                    ],
+                    "dur": 300,
+                    "delay": 0
+                },
+                "focused": {
+                    "curve": [
+                        0,
+                        0,
+                        0.58,
+                        1
+                    ],
+                    "dur": 300,
+                    "delay": 0
+                }
+            }
+        }
+    ]
+}
