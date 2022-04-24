@@ -55,7 +55,7 @@ const month_names = {
     ptBr: [
         'Janeiro',
         'Fevereiro',
-        'Março',
+        'Marco',
         'Abril',
         'Maio',
         'Junho',
@@ -68,31 +68,31 @@ const month_names = {
     ],
     fr: [
         'Janvier',
-        'Février',
+        'Fevrier',
         'Mars',
         'Avril',
         'Mai',
         'Juin',
         'Juillet',
-        'Août',
+        'Aout',
         'Septembre',
         'Octobre',
         'Novembre',
-        'Décembre'
+        'Decembre'
     ],
     tr: [
         'Ocak',
-        'Şubat',
+        '?ubat',
         'Mart',
         'Nisan',
-        'Mayıs',
+        'May?s',
         'Haziran',
         'Temmuz',
-        'Ağustos',
-        'Eylül',
+        'A?ustos',
+        'Eylul',
         'Ekim',
-        'Kasım',
-        'Aralık'
+        'Kas?m',
+        'Aral?k'
     ],
     zh: [
         '一月',
@@ -107,6 +107,20 @@ const month_names = {
         '十月',
         '十一月',
         '十二月'
+    ],
+    jp: [
+        '1月',
+        '2月',
+        '3月',
+        '4月',
+        '5月',
+        '6月',
+        '7月',
+        '8月',
+        '9月',
+        '10月',
+        '11月',
+        '12月'
     ]
 };
 
@@ -1065,7 +1079,7 @@ class Gantt {
             svg_element = element;
         } else {
             throw new TypeError(
-                'Frappé Gantt only supports usage of a string CSS selector,' +
+                'Frappe Gantt only supports usage of a string CSS selector,' +
                     " HTML DOM element or SVG DOM element for the 'element' parameter"
             );
         }
@@ -1250,17 +1264,17 @@ class Gantt {
 
         // add date padding on both sides
         if (this.view_is([VIEW_MODE.QUARTER_DAY, VIEW_MODE.HALF_DAY])) {
-            this.gantt_start = date_utils.add(this.gantt_start, -7, 'day');
-            this.gantt_end = date_utils.add(this.gantt_end, 7, 'day');
+            this.gantt_start = date_utils.add(this.gantt_start, -1, 'day');
+            this.gantt_end = date_utils.add(this.gantt_end, 1, 'day');
         } else if (this.view_is(VIEW_MODE.MONTH)) {
-            this.gantt_start = date_utils.start_of(this.gantt_start, 'year');
-            this.gantt_end = date_utils.add(this.gantt_end, 1, 'year');
+            this.gantt_start = date_utils.start_of(this.gantt_start, 'month');
+            this.gantt_end = date_utils.add(this.gantt_end, 3, 'month');
         } else if (this.view_is(VIEW_MODE.YEAR)) {
-            this.gantt_start = date_utils.add(this.gantt_start, -2, 'year');
-            this.gantt_end = date_utils.add(this.gantt_end, 2, 'year');
+            this.gantt_start = date_utils.add(this.gantt_start, -1, 'year');
+            this.gantt_end = date_utils.add(this.gantt_end, 1, 'year');
         } else {
-            this.gantt_start = date_utils.add(this.gantt_start, -1, 'month');
-            this.gantt_end = date_utils.add(this.gantt_end, 1, 'month');
+            this.gantt_start = date_utils.add(this.gantt_start, -7, 'day');
+            this.gantt_end = date_utils.add(this.gantt_end, 14, 'day');
         }
     }
 
