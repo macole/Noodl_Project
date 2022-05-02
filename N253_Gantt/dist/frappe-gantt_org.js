@@ -177,8 +177,7 @@ var date_utils = {
         return date_string + (with_time ? ' ' + time_string : '');
     },
 
-    //format(date, format_string = 'YYYY-MM-DD HH:mm:ss.SSS', lang = 'en') {
-    format(date, format_string = 'YYYY-MM-DD HH:mm', lang = 'en') {
+    format(date, format_string = 'YYYY-MM-DD HH:mm:ss.SSS', lang = 'en') {
         const values = this.get_date_values(date).map(d => padStart(d, 2, 0));
         const format_map = {
             YYYY: values[0],
@@ -1046,7 +1045,6 @@ class Popup {
 }
 
 const VIEW_MODE = {
-    HOUR: 'Hour',
     QUARTER_DAY: 'Quarter Day',
     HALF_DAY: 'Half Day',
     DAY: 'Day',
@@ -1222,10 +1220,7 @@ class Gantt {
     update_view_scale(view_mode) {
         this.options.view_mode = view_mode;
 
-        if (view_mode === VIEW_MODE.HOUR) {
-            this.options.step = 1;
-            this.options.column_width = 38;
-        } else if (view_mode === VIEW_MODE.DAY) {
+        if (view_mode === VIEW_MODE.DAY) {
             this.options.step = 24;
             this.options.column_width = 38;
         } else if (view_mode === VIEW_MODE.HALF_DAY) {
@@ -1268,10 +1263,7 @@ class Gantt {
         this.gantt_end = date_utils.start_of(this.gantt_end, 'day');
 
         // add date padding on both sides
-        if (this.view_is([VIEW_MODE.HOUR])) {
-            this.gantt_start = date_utils.add(this.gantt_start, -1, 'hour');
-            this.gantt_end = date_utils.add(this.gantt_end, 1, 'hour');
-        } else if (this.view_is([VIEW_MODE.QUARTER_DAY, VIEW_MODE.HALF_DAY])) {
+        if (this.view_is([VIEW_MODE.QUARTER_DAY, VIEW_MODE.HALF_DAY])) {
             this.gantt_start = date_utils.add(this.gantt_start, -1, 'day');
             this.gantt_end = date_utils.add(this.gantt_end, 1, 'day');
         } else if (this.view_is(VIEW_MODE.MONTH)) {
@@ -1529,11 +1521,6 @@ class Gantt {
             last_date = date_utils.add(date, 1, 'year');
         }
         const date_text = {
-            'Hour_lower': date_utils.format(
-                date,
-                'HH',
-                this.options.language
-            ),
             'Quarter Day_lower': date_utils.format(
                 date,
                 'HH',
@@ -1550,22 +1537,18 @@ class Gantt {
                     : '',
             Week_lower:
                 date.getMonth() !== last_date.getMonth()
-                    ? date_utils.format(date, 'MMM D', this.options.language)
+                    ? date_utils.format(date, 'D MMM', this.options.language)
                     : date_utils.format(date, 'D', this.options.language),
             Month_lower: date_utils.format(date, 'MMMM', this.options.language),
             Year_lower: date_utils.format(date, 'YYYY', this.options.language),
-            'Hour_upper':
-                date.getDate() !== last_date.getDate()
-                    ? date_utils.format(date, 'MMM D', this.options.language)
-                    : '',
             'Quarter Day_upper':
                 date.getDate() !== last_date.getDate()
-                    ? date_utils.format(date, 'MMM D', this.options.language)
+                    ? date_utils.format(date, 'D MMM', this.options.language)
                     : '',
             'Half Day_upper':
                 date.getDate() !== last_date.getDate()
                     ? date.getMonth() !== last_date.getMonth()
-                      ? date_utils.format(date, 'MMM D', this.options.language)
+                      ? date_utils.format(date, 'D MMM', this.options.language)
                       : date_utils.format(date, 'D', this.options.language)
                     : '',
             Day_upper:
@@ -1593,8 +1576,6 @@ class Gantt {
         };
 
         const x_pos = {
-            'Hour_lower': this.options.column_width * 4 / 2,
-            'Hour_upper': 0,
             'Quarter Day_lower': this.options.column_width * 4 / 2,
             'Quarter Day_upper': 0,
             'Half Day_lower': this.options.column_width * 2 / 2,
