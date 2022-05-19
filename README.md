@@ -1,4 +1,4 @@
-# Noodl Repository to showcase the Noodl project
+﻿# Noodl Repository to showcase the Noodl project
 
 Welcome to the Noodl Learning Lab repository. This repository shares the various Noodl projects I have tried to learn Noodl.
 You can modify and distribute the projects here as you like under the MIT license.
@@ -20,21 +20,21 @@ See you in the fun Noodl community!
 Translated with www.DeepL.com/Translator (free version)
 
 -----
-# Noodl�v���W�F�N�g���Љ�邽�߂̃��|�W�g��
+# Noodlプロジェクトを紹介するためのリポジトリ
 
-Noodl���[�j���O���{�̃��|�W�g���ւ悤�����B���̃��|�W�g���́ANoodl���w�K���邽�߂Ɏ������������܂��܂�Noodl�v���W�F�N�g�����L���Ă��܂��B
-�����Ō��J���Ă���v���W�F�N�g��MIT���C�Z���X�Ɋ�Â��A�D���ɉ����A�z�z���Ă��������č\���܂���B
+Noodlラーニングラボのリポジトリへようこそ。このリポジトリは、Noodlを学習するために私が試したさまざまなNoodlプロジェクトを共有しています。
+ここで公開しているプロジェクトはMITライセンスに基づき、好きに改造、配布していただいて構いません。
 
-���[�I���ȏЉ�͂��Ă��܂���ł���...
+おー！自己紹介はしていませんでした...
 
-���͓��{�̓d�@���[�J�œ����Ă��鐶�Y�Z�p�҂ł��B���IoT�v���_�N�g���쐬���Ă��܂��BNoodl�̃I�[�v���ȕ��͋C�Ɛ��Y���̍������ƂĂ��C�ɓ����Ă��܂��B
-���̃R�[�X�Ŏ��グ���Ă��邳�܂��܂ȃg�s�b�N���w�сA�K�����邽�߂̗��̃K�C�h������`�����܂��B
+私は日本の電機メーカで働いている生産技術者です。趣味でIoTプロダクトを作成しています。Noodlのオープンな雰囲気と生産性の高さがとても気に入っています。
+このコースで取り上げられているさまざまなトピックを学び、習得するための旅のガイドをお手伝いします。
 
-���Ȃ���Noodl�Ńv���W�F�N�g���n�߂�̂��҂�����܂���I
-�s���Ȃ��Ƃ������Noodl�̌����R�~���j�e�BDescord�Ŋm�F���Ă��������B
-�y����Noodl�̃R�~���j�e�B�ł�����܂��傤�I
+あなたがNoodlでプロジェクトを始めるのが待ちきれません！
+不明なことがあればNoodlの公式コミュニティDescordで確認してください。
+楽しいNoodlのコミュニティでお会いしましょう！
 
-- [Noodl�����T�C�g](https://www.noodl.net/)
+- [Noodl公式サイト](https://www.noodl.net/)
 - [Noodl on Youtube](https://www.youtube.com/channel/UCLkJ8XYV1J1RqrZKY-o1YWg/videos)
 - [Noodl on Discord](https://discord.gg/23xU2hYrSJ)
-- [Qitta ��̎��̋L��](https://qiita.com/macole/items/b5b4b52b4045b54f8ea7)
+- [Qitta 上の私の記事](https://qiita.com/macole/items/b5b4b52b4045b54f8ea7)
